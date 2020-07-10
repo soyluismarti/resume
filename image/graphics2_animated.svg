@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<!--?xml version="1.0" encoding="utf-8"?-->
 <!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 375.1 157.6" style="enable-background:new 0 0 375.1 157.6;" xml:space="preserve">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 375.1 157.6" style="" xml:space="preserve">
 <style type="text/css">
 	.st0{opacity:0.41;fill:url(#SVGID_1_);enable-background:new    ;}
 	.st1{fill:none;stroke:#D1A250;stroke-miterlimit:10;stroke-dasharray:6;}
@@ -10,21 +9,21 @@
 <g id="graphics" transform="translate(0.182 0.405)">
 	
 		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="187.268" y1="0.895" x2="187.268" y2="130.595" gradientTransform="matrix(1 0 0 -1 0.182 157.595)">
-		<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
-		<stop  offset="1" style="stop-color:#C69C6D"/>
+		<stop offset="0" style="stop-color:#FFFFFF;stop-opacity:0"></stop>
+		<stop offset="1" style="stop-color:#C69C6D"></stop>
 	</linearGradient>
-	<polygon class="st0" points="255,98.3 166.2,115.5 130.1,114.5 0,156.7 374.9,156.7 374.9,27 	"/>
+	<path class="st0 jZTpQDDY_0" d="M255,98.3L166.2,115.5L130.1,114.5L0,156.7L374.9,156.7L374.9,27Z"></path>
 	<g id="Group_139" transform="translate(0)">
-		<path id="Path_104" class="st1" d="M0,156.7l130.5-51.2l36.2,1.2l89.1-20.9l118.7-69.6"/>
-		<path id="Ellipse_11" class="st2" d="M157.3,106.7c0-5.2,4.2-9.4,9.4-9.4s9.4,4.2,9.4,9.4s-4.2,9.4-9.4,9.4
-			S157.3,111.9,157.3,106.7"/>
-		<path id="Ellipse_12" class="st2" d="M125.3,106.5c0-2.9,2.4-5.3,5.3-5.3c2.9,0,5.3,2.4,5.3,5.3l0,0c0,2.9-2.4,5.3-5.3,5.3
-			S125.3,109.4,125.3,106.5L125.3,106.5"/>
-		<path id="Ellipse_13" class="st2" d="M246.5,85.8c0-5.2,4.2-9.4,9.4-9.4c5.2,0,9.4,4.2,9.4,9.4l0,0c0,5.2-4.2,9.4-9.4,9.4
-			C250.7,95.2,246.5,91,246.5,85.8L246.5,85.8"/>
-		<path id="Line_15" class="st1" d="M167.1,157v-43.5"/>
-		<path id="Line_16" class="st1" d="M130.5,156.8v-51.3"/>
-		<path id="Line_17" class="st1" d="M255.7,157V92.6"/>
+		<path id="Path_104" class="st1 jZTpQDDY_1" d="M0,156.7l130.5-51.2l36.2,1.2l89.1-20.9l118.7-69.6"></path>
+		<path id="Ellipse_11" class="st2 jZTpQDDY_2" d="M157.3,106.7c0-5.2,4.2-9.4,9.4-9.4s9.4,4.2,9.4,9.4s-4.2,9.4-9.4,9.4
+			S157.3,111.9,157.3,106.7"></path>
+		<path id="Ellipse_12" class="st2 jZTpQDDY_3" d="M125.3,106.5c0-2.9,2.4-5.3,5.3-5.3c2.9,0,5.3,2.4,5.3,5.3l0,0c0,2.9-2.4,5.3-5.3,5.3
+			S125.3,109.4,125.3,106.5L125.3,106.5"></path>
+		<path id="Ellipse_13" class="st2 jZTpQDDY_4" d="M246.5,85.8c0-5.2,4.2-9.4,9.4-9.4c5.2,0,9.4,4.2,9.4,9.4l0,0c0,5.2-4.2,9.4-9.4,9.4
+			C250.7,95.2,246.5,91,246.5,85.8L246.5,85.8"></path>
+		<path id="Line_15" class="st1 jZTpQDDY_5" d="M167.1,157v-43.5"></path>
+		<path id="Line_16" class="st1 jZTpQDDY_6" d="M130.5,156.8v-51.3"></path>
+		<path id="Line_17" class="st1 jZTpQDDY_7" d="M255.7,157V92.6"></path>
 	</g>
 </g>
-</svg>
+<style data-made-with="vivus-instant">.jZTpQDDY_0{stroke-dasharray:908 910;stroke-dashoffset:909;animation:jZTpQDDY_draw 2000ms linear 0ms forwards;}.jZTpQDDY_1{stroke-dasharray:406 408;stroke-dashoffset:407;animation:jZTpQDDY_draw 2000ms linear 142ms forwards;}.jZTpQDDY_2{stroke-dasharray:60 62;stroke-dashoffset:61;animation:jZTpQDDY_draw 2000ms linear 285ms forwards;}.jZTpQDDY_3{stroke-dasharray:34 36;stroke-dashoffset:35;animation:jZTpQDDY_draw 2000ms linear 428ms forwards;}.jZTpQDDY_4{stroke-dasharray:60 62;stroke-dashoffset:61;animation:jZTpQDDY_draw 2000ms linear 571ms forwards;}.jZTpQDDY_5{stroke-dasharray:44 46;stroke-dashoffset:45;animation:jZTpQDDY_draw 2000ms linear 714ms forwards;}.jZTpQDDY_6{stroke-dasharray:52 54;stroke-dashoffset:53;animation:jZTpQDDY_draw 2000ms linear 857ms forwards;}.jZTpQDDY_7{stroke-dasharray:65 67;stroke-dashoffset:66;animation:jZTpQDDY_draw 2000ms linear 1000ms forwards;}@keyframes jZTpQDDY_draw{100%{stroke-dashoffset:0;}}@keyframes jZTpQDDY_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style></svg>

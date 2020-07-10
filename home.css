@@ -1,0 +1,33 @@
+body {
+      background-color: #EDEDED;
+      font-family: montserrat;
+}
+
+.buttonwhitehome {
+      border-radius: 20px;
+      width: 40vw;
+      height: 40vw;
+      margin: 2vw;
+}
+
+.texttitlebutton {
+      font-size: 30vw;
+}
+
+.textlowbutton {
+      font-size: 3.5vw;
+}
+
+.titlebigblack {
+      color: #E7E7E7;
+      background-color: #1F2633;
+      font-size: 8vw;
+
+}
+
+.titlebiggold {
+
+      color: #E7E7E7;
+      background-color: #D1A250;
+      font-size: 8vw;
+}

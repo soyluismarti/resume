@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 19 19" xmlns="http://www.w3.org/2000/svg">
+<circle cx="9.5" cy="9.5" r="9.5" fill="#d1a250" data-name="buttonGO"/>
+<g transform="translate(12.401 14.194) rotate(180)" data-name="buttonGO">
+<g transform="translate(0)" data-name="buttonGO">
+<path d="M5.478.761A.447.447,0,0,0,4.845.132L.129,4.844a.454.454,0,0,0,0,.633l4.716,4.712a.446.446,0,1,0,.633-.629l-4.4-4.4Z" fill="#fff" data-name="buttonGO"/>
+</g>
+</g>
+</svg>

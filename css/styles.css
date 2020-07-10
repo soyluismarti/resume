@@ -55,14 +55,14 @@ body {
 
 .graphicSvg {
       background-color: #1F2633;
-      background-image: url(image/graphic_animated.svg);
+      background-image: url(/image/graphic_animated.svg);
       height: 10vw;
       background-repeat: repeat-x;
 }
 
 .graphicSvg2 {
       background-color: #1F2633;
-      background-image: url(image/graphics2_animated.svg);
+      background-image: url(/image/graphics2_animated.svg);
       height: 10vw;
       background-repeat: repeat-x;
 }

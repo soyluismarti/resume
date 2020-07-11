@@ -17,7 +17,6 @@
 
       <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
       <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-analytics.js"></script>
-      <script type="module" src="api.js"></script>
 
       <title>Contact me</title>
 </head>
@@ -27,8 +26,8 @@
 
       <!--topmenu-->
 
-      <nav style="background-color: white;" class="navMenu py-2">
-            <ul class=" nav justify-content-center">
+      <nav style="background-color: white;;" class="navMenu py-2">
+            <ul class=" nav justify-content-center" style=" border-radius:27px">
                   <li class="nav-item">
                         <a style="padding: 10px;" class="nav-link" href="aboutme.html"><img src="image/profileB.svg"
                                     alt="homesbygabby" width="40px"></a>
@@ -125,104 +124,25 @@
 
 
       <!--Contactform-->
+      <div>
+            <div class="container">
+                  <form id="contact" style="padding:0% 7% 0% 7%;" action="" method="post">
+                        <input id="userName" type="text" name="name" placeholder="Full name" tabindex="1" required
+                              autofocus>
+                        <input id="userEmail" type="email" name="mail" placeholder="Your Email Address" tabindex="2"
+                              required>
+                        <input id="userTel" type="tel" name="phone" placeholder="Your Phone Number (optional)"
+                              tabindex="3" optional>
+                        <textarea id="userMessage" class="formControl" name="message"
+                              placeholder="Type your message here...." tabindex="5" required></textarea>
+                        <button type="submit" name="submit" id="contact-submit" data-submit="...Sending">SEND</button>
+                  </form>
 
-      <div id='container'>
-            <div id='header'></div>
-            <h2>Contact</h2>
-            <form name="contactform" method="post" action="send_form_email.php">
-                  <table width="450px">
-                        <tr>
-                              <td valign="top">
-                                    <label for="first_name">First Name *</label>
 
-                              </td>
 
-                              <td valign="top">
+            </div>
 
-                                    <input type="text" name="first_name" maxlength="50" size="30">
 
-                              </td>
-
-                        </tr>
-
-                        <tr>
-
-                              <td valign="top">
-
-                                    <label for="last_name">Last Name *</label>
-
-                              </td>
-
-                              <td valign="top">
-
-                                    <input type="text" name="last_name" maxlength="50" size="30">
-
-                              </td>
-
-                        </tr>
-
-                        <tr>
-
-                              <td valign="top">
-
-                                    <label for="email">Email Address *</label>
-
-                              </td>
-
-                              <td valign="top">
-
-                                    <input type="text" name="email" maxlength="80" size="30">
-
-                              </td>
-
-                        </tr>
-
-                        <tr>
-
-                              <td valign="top">
-
-                                    <label for="telephone">Telephone Number</label>
-
-                              </td>
-
-                              <td valign="top">
-
-                                    <input type="text" name="telephone" maxlength="30" size="30">
-
-                              </td>
-
-                        </tr>
-
-                        <tr>
-
-                              <td valign="top">
-
-                                    <label for="comments">Comments *</label>
-
-                              </td>
-
-                              <td valign="top">
-
-                                    <textarea name="comments" maxlength="1000" cols="25" rows="6"></textarea>
-
-                              </td>
-
-                        </tr>
-
-                        <tr>
-
-                              <td colspan="2" style="text-align:center">
-
-                                    <input type="submit" value="Submit"> <a
-                                          href="http://www.freecontactform.com/email_form.php">Email Form</a>
-
-                              </td>
-
-                        </tr>
-
-                  </table>
-
-            </form>
       </div>
 
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->

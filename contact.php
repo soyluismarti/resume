@@ -11,6 +11,5 @@ $headers = "From:". $mailFrom;
 $txt ="You recceived a message in your website from".$name.".\n\n ". $message".\n\n ".$phone;
 mail(
 $mailTo, $tel, $txt, $headers);
-header("Location: home.html");
-
+header("Location: contactme.php?mailsend");
 }

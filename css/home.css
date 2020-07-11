@@ -4,15 +4,12 @@ body {
 }
 
 .buttonwhitehome {
-      border-radius: 20px;
-      width: 40vw;
-      height: 40vw;
-      margin: 2vw;
+      border-radius: 14px;
+      width: 36vw;
+      height: 36vw;
+      margin: 14px;
 }
 
-.texttitlebutton {
-      font-size: 30vw;
-}
 
 .textlowbutton {
       font-size: 3.5vw;
@@ -21,7 +18,7 @@ body {
 .titlebigblack {
       color: #E7E7E7;
       background-color: #1F2633;
-      font-size: 8vw;
+      font-size: 6vw;
 
 }
 
@@ -29,5 +26,5 @@ body {
 
       color: #E7E7E7;
       background-color: #D1A250;
-      font-size: 8vw;
+      font-size: 6vw;
 }

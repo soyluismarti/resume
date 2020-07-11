@@ -75,10 +75,8 @@ body {
 }
 
 .graphicSvg2 {
-      background-color: #1F2633;
       background-image: url(../image/graphics2_animated.svg);
-      height: 10vw;
-      background-repeat: repeat-x;
+
 }
 
 .titleinsideblue {

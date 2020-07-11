@@ -8,9 +8,13 @@ body {
 
 }
 
+/*
 .bodygradient {
       background: rgb(68, 77, 95);
       background: linear-gradient(180deg, rgba(68, 77, 95, 1) 0%, rgba(50, 58, 74, 1) 26%, rgba(31, 38, 51, 1) 45%, rgba(31, 38, 51, 1) 79%);
+}*/
+.bodygradient {
+      background: #FFF4EB;
 }
 
 .navMenu {

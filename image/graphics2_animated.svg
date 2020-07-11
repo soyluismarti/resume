@@ -2,28 +2,197 @@
 <!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 375.1 157.6" style="" xml:space="preserve">
 <style type="text/css">
-	.st0{opacity:0.41;fill:url(#SVGID_1_);enable-background:new    ;}
-	.st1{fill:none;stroke:#D1A250;stroke-miterlimit:10;stroke-dasharray:6;}
-	.st2{fill:#D1A250;}
+	.st0{fill:#FFF4EB;stroke:#B18A79;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#D1A250;stroke-width:0.75;stroke-miterlimit:10;stroke-dasharray:6;}
+	.st2{fill:#FFF4EB;stroke:#B18A79;stroke-width:0.25;stroke-miterlimit:10;}
+	.st3{fill:#FFF4EB;stroke:#B18A79;stroke-width:0.25;stroke-linecap:round;stroke-miterlimit:10;}
 </style>
+<path id="Ellipse_12" class="st0 CkKIDteE_0" d="M44.6,126.3c0-1.6,1.3-2.9,2.9-2.9c1.6,0,2.9,1.3,2.9,2.9l0,0c0,1.6-1.3,2.9-2.9,2.9
+	C45.9,129.2,44.6,127.9,44.6,126.3L44.6,126.3"></path>
+<path id="Ellipse_12_2_" class="st0 CkKIDteE_1" d="M140.5,119c0-1.6,1.3-2.9,2.9-2.9c1.6,0,2.9,1.3,2.9,2.9l0,0c0,1.6-1.3,2.9-2.9,2.9
+	C141.8,121.8,140.5,120.6,140.5,119L140.5,119"></path>
+<path id="Ellipse_12_3_" class="st0 CkKIDteE_2" d="M21.7,70.3c0-1.6,1.3-2.9,2.9-2.9s2.9,1.3,2.9,2.9l0,0c0,1.6-1.3,2.9-2.9,2.9
+	S21.7,71.8,21.7,70.3L21.7,70.3"></path>
 <g id="graphics" transform="translate(0.182 0.405)">
-	
-		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="187.268" y1="0.895" x2="187.268" y2="130.595" gradientTransform="matrix(1 0 0 -1 0.182 157.595)">
-		<stop offset="0" style="stop-color:#FFFFFF;stop-opacity:0"></stop>
-		<stop offset="1" style="stop-color:#C69C6D"></stop>
-	</linearGradient>
-	<path class="st0 jZTpQDDY_0" d="M255,98.3L166.2,115.5L130.1,114.5L0,156.7L374.9,156.7L374.9,27Z"></path>
 	<g id="Group_139" transform="translate(0)">
-		<path id="Path_104" class="st1 jZTpQDDY_1" d="M0,156.7l130.5-51.2l36.2,1.2l89.1-20.9l118.7-69.6"></path>
-		<path id="Ellipse_11" class="st2 jZTpQDDY_2" d="M157.3,106.7c0-5.2,4.2-9.4,9.4-9.4s9.4,4.2,9.4,9.4s-4.2,9.4-9.4,9.4
-			S157.3,111.9,157.3,106.7"></path>
-		<path id="Ellipse_12" class="st2 jZTpQDDY_3" d="M125.3,106.5c0-2.9,2.4-5.3,5.3-5.3c2.9,0,5.3,2.4,5.3,5.3l0,0c0,2.9-2.4,5.3-5.3,5.3
-			S125.3,109.4,125.3,106.5L125.3,106.5"></path>
-		<path id="Ellipse_13" class="st2 jZTpQDDY_4" d="M246.5,85.8c0-5.2,4.2-9.4,9.4-9.4c5.2,0,9.4,4.2,9.4,9.4l0,0c0,5.2-4.2,9.4-9.4,9.4
-			C250.7,95.2,246.5,91,246.5,85.8L246.5,85.8"></path>
-		<path id="Line_15" class="st1 jZTpQDDY_5" d="M167.1,157v-43.5"></path>
-		<path id="Line_16" class="st1 jZTpQDDY_6" d="M130.5,156.8v-51.3"></path>
-		<path id="Line_17" class="st1 jZTpQDDY_7" d="M255.7,157V92.6"></path>
+		<path id="Ellipse_13" class="st0 CkKIDteE_3" d="M346.3,43.9c0-1.6,1.4-3,3-3c1.6,0,3,1.4,3,3l0,0c0,1.6-1.4,3-3,3
+			C347.7,46.9,346.3,45.6,346.3,43.9L346.3,43.9"></path>
 	</g>
 </g>
-<style data-made-with="vivus-instant">.jZTpQDDY_0{stroke-dasharray:908 910;stroke-dashoffset:909;animation:jZTpQDDY_draw 2000ms linear 0ms forwards;}.jZTpQDDY_1{stroke-dasharray:406 408;stroke-dashoffset:407;animation:jZTpQDDY_draw 2000ms linear 142ms forwards;}.jZTpQDDY_2{stroke-dasharray:60 62;stroke-dashoffset:61;animation:jZTpQDDY_draw 2000ms linear 285ms forwards;}.jZTpQDDY_3{stroke-dasharray:34 36;stroke-dashoffset:35;animation:jZTpQDDY_draw 2000ms linear 428ms forwards;}.jZTpQDDY_4{stroke-dasharray:60 62;stroke-dashoffset:61;animation:jZTpQDDY_draw 2000ms linear 571ms forwards;}.jZTpQDDY_5{stroke-dasharray:44 46;stroke-dashoffset:45;animation:jZTpQDDY_draw 2000ms linear 714ms forwards;}.jZTpQDDY_6{stroke-dasharray:52 54;stroke-dashoffset:53;animation:jZTpQDDY_draw 2000ms linear 857ms forwards;}.jZTpQDDY_7{stroke-dasharray:65 67;stroke-dashoffset:66;animation:jZTpQDDY_draw 2000ms linear 1000ms forwards;}@keyframes jZTpQDDY_draw{100%{stroke-dashoffset:0;}}@keyframes jZTpQDDY_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style></svg>
+<path id="Ellipse_11" class="st0 CkKIDteE_4" d="M309.9,67.6c0-1.7,1.5-3.2,3.2-3.1c1.7,0,3,1.4,3,3c0,1.7-1.4,3.2-3.1,3.2
+	S309.9,69.4,309.9,67.6"></path>
+<path class="st1 CkKIDteE_5" d="M-24.3,84.1A26.7,26.7 0,1,1 29.099999999999998,84.1A26.7,26.7 0,1,1 -24.3,84.1"></path>
+<path class="st1 CkKIDteE_6" d="M-0.3,155.9L4.9,152.5"></path>
+<path class="st1 CkKIDteE_7" d="M8.7,150L13.9,146.6"></path>
+<path class="st1 CkKIDteE_8" d="M18.5,143.6L23.7,140.2"></path>
+<path class="st1 CkKIDteE_9" d="M29.1,137.2L34.3,133.8"></path>
+<path class="st1 CkKIDteE_10" d="M39.7,130.8L44.9,127.4"></path>
+<path class="st1 CkKIDteE_11" d="M50.4,124.4L55.5,121"></path>
+<path class="st1 CkKIDteE_12" d="M60.8,117.8L66.3,114.9"></path>
+<path class="st1 CkKIDteE_13" d="M70.7,112.1L76.4,109.6"></path>
+<path class="st1 CkKIDteE_14" d="M81.3,108.4L87.3,106.9"></path>
+<path class="st1 CkKIDteE_15" d="M92.6,106.3L98.8,106"></path>
+<path class="st1 CkKIDteE_16" d="M150.6,124.4L145.4,121"></path>
+<path class="st1 CkKIDteE_17" d="M140.1,117.8L134.6,114.9"></path>
+<path class="st1 CkKIDteE_18" d="M130.2,112.1L124.5,109.6"></path>
+<path class="st1 CkKIDteE_19" d="M119.7,108.4L113.7,106.9"></path>
+<path class="st1 CkKIDteE_20" d="M108.3,106.3L102.1,106"></path>
+<path class="st1 CkKIDteE_21" d="M340.7,47.8L346.4,45.3"></path>
+<path class="st1 CkKIDteE_22" d="M351.3,44.1L357.3,42.6"></path>
+<path class="st1 CkKIDteE_23" d="M362.6,42L368.8,41.7"></path>
+<path class="st1 CkKIDteE_24" d="M420.6,60.1L415.4,56.7"></path>
+<path class="st1 CkKIDteE_25" d="M410.1,53.5L404.6,50.6"></path>
+<path class="st1 CkKIDteE_26" d="M400.2,47.8L394.5,45.3"></path>
+<path class="st1 CkKIDteE_27" d="M389.6,44.1L383.6,42.6"></path>
+<path class="st1 CkKIDteE_28" d="M378.3,42L372.1,41.7"></path>
+<path id="Ellipse_12_1_" class="st0 CkKIDteE_29" d="M241.8,113.2c0,1.6-1.3,2.9-2.9,2.9c-1.6,0-2.9-1.3-2.9-2.9l0,0c0-1.6,1.3-2.9,2.9-2.9
+	C240.5,110.4,241.8,111.7,241.8,113.2L241.8,113.2"></path>
+<path class="st1 CkKIDteE_30" d="M246.7,108.7L241.6,112.1"></path>
+<path class="st1 CkKIDteE_31" d="M236.1,115.1L230.9,118.5"></path>
+<path class="st1 CkKIDteE_32" d="M265,97L259.8,100.4"></path>
+<path class="st1 CkKIDteE_33" d="M254.4,103.4L249.2,106.8"></path>
+<path class="st1 CkKIDteE_34" d="M265,97L259.8,100.4"></path>
+<path class="st1 CkKIDteE_35" d="M283.3,85.3L278.1,88.7"></path>
+<path class="st1 CkKIDteE_36" d="M272.6,91.7L267.5,95.1"></path>
+<path class="st1 CkKIDteE_37" d="M283.3,85.3L278.1,88.7"></path>
+<path class="st1 CkKIDteE_38" d="M301.5,73.5L296.3,76.9"></path>
+<path class="st1 CkKIDteE_39" d="M290.9,79.9L285.7,83.4"></path>
+<path class="st1 CkKIDteE_40" d="M301.5,73.5L296.3,76.9"></path>
+<path class="st1 CkKIDteE_41" d="M319.8,61.8L314.6,65.2"></path>
+<path class="st1 CkKIDteE_42" d="M309.1,68.2L304,71.6"></path>
+<path class="st1 CkKIDteE_43" d="M319.8,61.8L314.6,65.2"></path>
+<path class="st1 CkKIDteE_44" d="M338,50.1L332.8,53.5"></path>
+<path class="st1 CkKIDteE_45" d="M327.4,56.5L322.2,59.9"></path>
+<path class="st1 CkKIDteE_46" d="M225.6,121.7L220.2,124.7"></path>
+<path class="st1 CkKIDteE_47" d="M215.7,127.4L210.1,130"></path>
+<path class="st1 CkKIDteE_48" d="M205.2,131.2L199.2,132.7"></path>
+<path class="st1 CkKIDteE_49" d="M193.9,133.3L187.7,133.6"></path>
+<path class="st1 CkKIDteE_50" d="M156.3,127.4L161.9,130"></path>
+<path class="st1 CkKIDteE_51" d="M166.8,131.2L172.8,132.7"></path>
+<path class="st1 CkKIDteE_52" d="M178.2,133.3L184.4,133.6"></path>
+<path class="st1 CkKIDteE_53" d="M-44.3,44.1L-38.3,42.7"></path>
+<path class="st1 CkKIDteE_54" d="M-32.2,41.4L-26.1,40.5"></path>
+<path class="st1 CkKIDteE_55" d="M-21,39.5L-14.8,39"></path>
+<path class="st1 CkKIDteE_56" d="M-9.8,39.5L-3.6,40.1"></path>
+<path class="st1 CkKIDteE_57" d="M1.6,41.4L7.5,43.2"></path>
+<path class="st1 CkKIDteE_58" d="M49.9,78.1L46.2,73.2"></path>
+<path class="st1 CkKIDteE_59" d="M42.3,68.3L38.2,63.7"></path>
+<path class="st1 CkKIDteE_60" d="M34.9,59.6L30.5,55.3"></path>
+<path class="st1 CkKIDteE_61" d="M26.3,52.5L21.2,49.1"></path>
+<path class="st1 CkKIDteE_62" d="M16.3,46.7L10.6,44.3"></path>
+<path class="st1 CkKIDteE_63" d="M87.6,101.1L81.7,99.3"></path>
+<path class="st1 CkKIDteE_64" d="M54.3,82.9L58.7,87.2"></path>
+<path class="st1 CkKIDteE_65" d="M62.9,90L68.1,93.4"></path>
+<path class="st1 CkKIDteE_66" d="M72.9,95.8L78.6,98.2"></path>
+<g>
+	<path class="st2 CkKIDteE_67" d="M376.9,112.4c0,0,3.1-0.2,3.7-0.8"></path>
+	<path class="st2 CkKIDteE_68" d="M372.1,112.3c0,0,3.1,0.3,3.8-0.1"></path>
+	<g>
+		<path class="st3 CkKIDteE_69" d="M399.5,77c0,0-1.2-2.9-1.8-3.3"></path>
+		<path class="st3 CkKIDteE_70" d="M400.8,81.7c0,0-0.6-3-1.2-3.6"></path>
+		<path class="st3 CkKIDteE_71" d="M401.2,86.5c0,0,0-3.1-0.5-3.7"></path>
+		<path class="st3 CkKIDteE_72" d="M400.8,91.4c0,0,0.5-3,0.2-3.7"></path>
+		<path class="st3 CkKIDteE_73" d="M399.4,96.1c0,0,1.1-2.9,0.9-3.6"></path>
+		<path class="st3 CkKIDteE_74" d="M397.2,100.4c0,0,1.6-2.6,1.5-3.4"></path>
+		<path class="st3 CkKIDteE_75" d="M394.2,104.3c0,0,2.1-2.3,2.2-3.1"></path>
+		<path class="st3 CkKIDteE_76" d="M390.5,107.5c0,0,2.5-1.9,2.7-2.6"></path>
+		<path class="st3 CkKIDteE_77" d="M386.3,110c0,0,2.8-1.4,3.1-2.1"></path>
+		<path class="st3 CkKIDteE_78" d="M381.7,111.6c0,0,3-0.8,3.5-1.4"></path>
+		<path class="st3 CkKIDteE_79" d="M367.3,111.3c0,0,3,0.9,3.7,0.6"></path>
+		<path class="st3 CkKIDteE_80" d="M362.8,109.3c0,0,2.7,1.4,3.5,1.3"></path>
+		<path class="st3 CkKIDteE_81" d="M358.7,106.6c0,0,2.4,1.9,3.2,1.9"></path>
+		<path class="st3 CkKIDteE_82" d="M355.3,103.2c0,0,2,2.3,2.8,2.5"></path>
+		<path class="st3 CkKIDteE_83" d="M352.5,99.2c0,0,1.6,2.7,2.3,3"></path>
+		<path class="st3 CkKIDteE_84" d="M350.5,94.8c0,0,1,2.9,1.7,3.3"></path>
+		<path class="st3 CkKIDteE_85" d="M349.4,90c0,0,0.5,3.1,1,3.6"></path>
+		<path class="st3 CkKIDteE_86" d="M349.1,85.1c0,0-0.1,3.1,0.3,3.7"></path>
+		<path class="st3 CkKIDteE_87" d="M349.8,80.3c0,0-0.7,3-0.4,3.7"></path>
+		<path class="st3 CkKIDteE_88" d="M351.4,75.7c0,0-1.2,2.8-1,3.6"></path>
+		<path class="st3 CkKIDteE_89" d="M353.8,71.5c0,0-1.7,2.6-1.7,3.3"></path>
+		<path class="st3 CkKIDteE_90" d="M357,67.7c0,0-2.2,2.2-2.3,3"></path>
+		<path class="st3 CkKIDteE_91" d="M360.8,64.7c0,0-2.5,1.7-2.8,2.5"></path>
+		<path class="st3 CkKIDteE_92" d="M365.1,62.4c0,0-2.8,1.2-3.2,1.9"></path>
+		<path class="st3 CkKIDteE_93" d="M369.8,60.9c0,0-3,0.7-3.5,1.3"></path>
+		<path class="st3 CkKIDteE_94" d="M374.6,60.4c0,0-3.1,0.1-3.7,0.6"></path>
+		<path class="st3 CkKIDteE_95" d="M379.5,60.7c0,0-3.1-0.5-3.7-0.1"></path>
+		<path class="st3 CkKIDteE_96" d="M384.2,62c0,0-2.9-1-3.7-0.8"></path>
+		<path class="st3 CkKIDteE_97" d="M388.6,64.1c0,0-2.7-1.6-3.5-1.5"></path>
+		<path class="st3 CkKIDteE_98" d="M392.5,67c0,0-2.3-2-3.1-2.1"></path>
+		<path class="st3 CkKIDteE_99" d="M395.8,70.5c0,0-1.9-2.4-2.7-2.6"></path>
+	</g>
+</g>
+<g>
+	<path class="st2 CkKIDteE_100" d="M205,71.1c0,0,0.8-0.1,0.9-0.2"></path>
+	<path class="st2 CkKIDteE_101" d="M203.7,71c0,0,0.8,0.1,0.9,0"></path>
+	<g>
+		<path class="st3 CkKIDteE_102" d="M210.6,62.1c0,0-0.3-0.7-0.5-0.8"></path>
+		<path class="st3 CkKIDteE_103" d="M211,63.3c0,0-0.2-0.8-0.3-0.9"></path>
+		<path class="st3 CkKIDteE_104" d="M211.1,64.6c0,0,0-0.8-0.1-0.9"></path>
+		<path class="st3 CkKIDteE_105" d="M211,65.8c0,0,0.1-0.8,0-0.9"></path>
+		<path class="st3 CkKIDteE_106" d="M210.6,67c0,0,0.3-0.7,0.2-0.9"></path>
+		<path class="st3 CkKIDteE_107" d="M210.1,68c0,0,0.4-0.7,0.4-0.9"></path>
+		<path class="st3 CkKIDteE_108" d="M209.3,69c0,0,0.5-0.6,0.5-0.8"></path>
+		<path class="st3 CkKIDteE_109" d="M208.4,69.8c0,0,0.6-0.5,0.7-0.7"></path>
+		<path class="st3 CkKIDteE_110" d="M207.3,70.5c0,0,0.7-0.3,0.8-0.5"></path>
+		<path class="st3 CkKIDteE_111" d="M206.2,70.9c0,0,0.7-0.2,0.9-0.4"></path>
+		<path class="st3 CkKIDteE_112" d="M202.5,70.8c0,0,0.7,0.2,0.9,0.2"></path>
+		<path class="st3 CkKIDteE_113" d="M201.4,70.3c0,0,0.7,0.4,0.9,0.3"></path>
+		<path class="st3 CkKIDteE_114" d="M200.4,69.6c0,0,0.6,0.5,0.8,0.5"></path>
+		<path class="st3 CkKIDteE_115" d="M199.5,68.8c0,0,0.5,0.6,0.7,0.6"></path>
+		<path class="st3 CkKIDteE_116" d="M198.8,67.7c0,0,0.4,0.7,0.6,0.7"></path>
+		<path class="st3 CkKIDteE_117" d="M198.3,66.6c0,0,0.3,0.7,0.4,0.8"></path>
+		<path class="st3 CkKIDteE_118" d="M198,65.4c0,0,0.1,0.8,0.3,0.9"></path>
+		<path class="st3 CkKIDteE_119" d="M198,64.2c0,0,0,0.8,0.1,0.9"></path>
+		<path class="st3 CkKIDteE_120" d="M198.1,63c0,0-0.2,0.8-0.1,0.9"></path>
+		<path class="st3 CkKIDteE_121" d="M198.5,61.8c0,0-0.3,0.7-0.3,0.9"></path>
+		<path class="st3 CkKIDteE_122" d="M199.1,60.8c0,0-0.4,0.6-0.4,0.8"></path>
+		<path class="st3 CkKIDteE_123" d="M199.9,59.8c0,0-0.5,0.5-0.6,0.7"></path>
+		<path class="st3 CkKIDteE_124" d="M200.9,59c0,0-0.6,0.4-0.7,0.6"></path>
+		<path class="st3 CkKIDteE_125" d="M202,58.5c0,0-0.7,0.3-0.8,0.5"></path>
+		<path class="st3 CkKIDteE_126" d="M203.1,58.1c0,0-0.8,0.2-0.9,0.3"></path>
+		<path class="st3 CkKIDteE_127" d="M204.4,58c0,0-0.8,0-0.9,0.2"></path>
+		<path class="st3 CkKIDteE_128" d="M205.6,58c0,0-0.8-0.1-0.9,0"></path>
+		<path class="st3 CkKIDteE_129" d="M206.8,58.4c0,0-0.7-0.3-0.9-0.2"></path>
+		<path class="st3 CkKIDteE_130" d="M207.9,58.9c0,0-0.7-0.4-0.9-0.4"></path>
+		<path class="st3 CkKIDteE_131" d="M208.9,59.6c0,0-0.6-0.5-0.8-0.5"></path>
+		<path class="st3 CkKIDteE_132" d="M209.7,60.5c0,0-0.5-0.6-0.7-0.7"></path>
+	</g>
+</g>
+<g>
+	<path class="st2 CkKIDteE_133" d="M254,92.9c0,0,2.2-0.2,2.7-0.6"></path>
+	<path class="st2 CkKIDteE_134" d="M250.5,92.8c0,0,2.2,0.2,2.7-0.1"></path>
+	<g>
+		<path class="st3 CkKIDteE_135" d="M270.5,67c0,0-0.8-2.1-1.3-2.4"></path>
+		<path class="st3 CkKIDteE_136" d="M271.4,70.4c0,0-0.4-2.2-0.9-2.6"></path>
+		<path class="st3 CkKIDteE_137" d="M271.8,74c0,0,0-2.3-0.4-2.7"></path>
+		<path class="st3 CkKIDteE_138" d="M271.4,77.5c0,0,0.4-2.2,0.1-2.7"></path>
+		<path class="st3 CkKIDteE_139" d="M270.4,80.9c0,0,0.8-2.1,0.6-2.7"></path>
+		<path class="st3 CkKIDteE_140" d="M268.8,84.1c0,0,1.2-1.9,1.1-2.5"></path>
+		<path class="st3 CkKIDteE_141" d="M266.6,86.9c0,0,1.5-1.7,1.6-2.2"></path>
+		<path class="st3 CkKIDteE_142" d="M263.9,89.3c0,0,1.8-1.3,2-1.9"></path>
+		<path class="st3 CkKIDteE_143" d="M260.9,91.1c0,0,2-1,2.3-1.5"></path>
+		<path class="st3 CkKIDteE_144" d="M257.5,92.3c0,0,2.2-0.6,2.5-1.1"></path>
+		<path class="st3 CkKIDteE_145" d="M247,92c0,0,2.2,0.7,2.7,0.5"></path>
+		<path class="st3 CkKIDteE_146" d="M243.7,90.6c0,0,2,1,2.6,0.9"></path>
+		<path class="st3 CkKIDteE_147" d="M240.8,88.7c0,0,1.8,1.4,2.3,1.4"></path>
+		<path class="st3 CkKIDteE_148" d="M238.2,86.2c0,0,1.5,1.7,2,1.8"></path>
+		<path class="st3 CkKIDteE_149" d="M236.2,83.2c0,0,1.1,1.9,1.7,2.2"></path>
+		<path class="st3 CkKIDteE_150" d="M234.7,80c0,0,0.7,2.1,1.2,2.4"></path>
+		<path class="st3 CkKIDteE_151" d="M233.9,76.5c0,0,0.3,2.2,0.8,2.6"></path>
+		<path class="st3 CkKIDteE_152" d="M233.8,73c0,0-0.1,2.2,0.3,2.7"></path>
+		<path class="st3 CkKIDteE_153" d="M234.3,69.5c0,0-0.5,2.2-0.3,2.7"></path>
+		<path class="st3 CkKIDteE_154" d="M235.4,66.1c0,0-0.9,2.1-0.8,2.6"></path>
+		<path class="st3 CkKIDteE_155" d="M237.2,63c0,0-1.3,1.9-1.2,2.4"></path>
+		<path class="st3 CkKIDteE_156" d="M239.5,60.3c0,0-1.6,1.6-1.7,2.2"></path>
+		<path class="st3 CkKIDteE_157" d="M242.3,58.1c0,0-1.9,1.3-2,1.8"></path>
+		<path class="st3 CkKIDteE_158" d="M245.4,56.4c0,0-2.1,0.9-2.3,1.4"></path>
+		<path class="st3 CkKIDteE_159" d="M248.8,55.3c0,0-2.2,0.5-2.6,0.9"></path>
+		<path class="st3 CkKIDteE_160" d="M252.3,54.9c0,0-2.2,0.1-2.7,0.4"></path>
+		<path class="st3 CkKIDteE_161" d="M255.9,55.2c0,0-2.2-0.3-2.7-0.1"></path>
+		<path class="st3 CkKIDteE_162" d="M259.3,56.1c0,0-2.1-0.7-2.7-0.6"></path>
+		<path class="st3 CkKIDteE_163" d="M262.5,57.6c0,0-1.9-1.1-2.5-1.1"></path>
+		<path class="st3 CkKIDteE_164" d="M265.4,59.7c0,0-1.7-1.5-2.3-1.5"></path>
+		<path class="st3 CkKIDteE_165" d="M267.8,62.3c0,0-1.4-1.8-2-1.9"></path>
+	</g>
+</g>
+<style data-made-with="vivus-instant">.CkKIDteE_0{stroke-dasharray:19 21;stroke-dashoffset:20;animation:CkKIDteE_draw 2000ms linear 0ms forwards;}.CkKIDteE_1{stroke-dasharray:19 21;stroke-dashoffset:20;animation:CkKIDteE_draw 2000ms linear 6ms forwards;}.CkKIDteE_2{stroke-dasharray:19 21;stroke-dashoffset:20;animation:CkKIDteE_draw 2000ms linear 12ms forwards;}.CkKIDteE_3{stroke-dasharray:19 21;stroke-dashoffset:20;animation:CkKIDteE_draw 2000ms linear 18ms forwards;}.CkKIDteE_4{stroke-dasharray:20 22;stroke-dashoffset:21;animation:CkKIDteE_draw 2000ms linear 24ms forwards;}.CkKIDteE_5{stroke-dasharray:168 170;stroke-dashoffset:169;animation:CkKIDteE_draw 2000ms linear 30ms forwards;}.CkKIDteE_6{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 36ms forwards;}.CkKIDteE_7{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 42ms forwards;}.CkKIDteE_8{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 48ms forwards;}.CkKIDteE_9{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 54ms forwards;}.CkKIDteE_10{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 60ms forwards;}.CkKIDteE_11{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 66ms forwards;}.CkKIDteE_12{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 72ms forwards;}.CkKIDteE_13{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 78ms forwards;}.CkKIDteE_14{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 84ms forwards;}.CkKIDteE_15{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 90ms forwards;}.CkKIDteE_16{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 96ms forwards;}.CkKIDteE_17{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 103ms forwards;}.CkKIDteE_18{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 109ms forwards;}.CkKIDteE_19{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 115ms forwards;}.CkKIDteE_20{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 121ms forwards;}.CkKIDteE_21{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 127ms forwards;}.CkKIDteE_22{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 133ms forwards;}.CkKIDteE_23{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 139ms forwards;}.CkKIDteE_24{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 145ms forwards;}.CkKIDteE_25{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 151ms forwards;}.CkKIDteE_26{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 157ms forwards;}.CkKIDteE_27{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 163ms forwards;}.CkKIDteE_28{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 169ms forwards;}.CkKIDteE_29{stroke-dasharray:19 21;stroke-dashoffset:20;animation:CkKIDteE_draw 2000ms linear 175ms forwards;}.CkKIDteE_30{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 181ms forwards;}.CkKIDteE_31{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 187ms forwards;}.CkKIDteE_32{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 193ms forwards;}.CkKIDteE_33{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 200ms forwards;}.CkKIDteE_34{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 206ms forwards;}.CkKIDteE_35{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 212ms forwards;}.CkKIDteE_36{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 218ms forwards;}.CkKIDteE_37{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 224ms forwards;}.CkKIDteE_38{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 230ms forwards;}.CkKIDteE_39{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 236ms forwards;}.CkKIDteE_40{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 242ms forwards;}.CkKIDteE_41{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 248ms forwards;}.CkKIDteE_42{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 254ms forwards;}.CkKIDteE_43{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 260ms forwards;}.CkKIDteE_44{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 266ms forwards;}.CkKIDteE_45{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 272ms forwards;}.CkKIDteE_46{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 278ms forwards;}.CkKIDteE_47{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 284ms forwards;}.CkKIDteE_48{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 290ms forwards;}.CkKIDteE_49{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 296ms forwards;}.CkKIDteE_50{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 303ms forwards;}.CkKIDteE_51{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 309ms forwards;}.CkKIDteE_52{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 315ms forwards;}.CkKIDteE_53{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 321ms forwards;}.CkKIDteE_54{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 327ms forwards;}.CkKIDteE_55{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 333ms forwards;}.CkKIDteE_56{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 339ms forwards;}.CkKIDteE_57{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 345ms forwards;}.CkKIDteE_58{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 351ms forwards;}.CkKIDteE_59{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 357ms forwards;}.CkKIDteE_60{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 363ms forwards;}.CkKIDteE_61{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 369ms forwards;}.CkKIDteE_62{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 375ms forwards;}.CkKIDteE_63{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 381ms forwards;}.CkKIDteE_64{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 387ms forwards;}.CkKIDteE_65{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 393ms forwards;}.CkKIDteE_66{stroke-dasharray:7 9;stroke-dashoffset:8;animation:CkKIDteE_draw 2000ms linear 400ms forwards;}.CkKIDteE_67{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 406ms forwards;}.CkKIDteE_68{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 412ms forwards;}.CkKIDteE_69{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 418ms forwards;}.CkKIDteE_70{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 424ms forwards;}.CkKIDteE_71{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 430ms forwards;}.CkKIDteE_72{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 436ms forwards;}.CkKIDteE_73{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 442ms forwards;}.CkKIDteE_74{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 448ms forwards;}.CkKIDteE_75{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 454ms forwards;}.CkKIDteE_76{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 460ms forwards;}.CkKIDteE_77{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 466ms forwards;}.CkKIDteE_78{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 472ms forwards;}.CkKIDteE_79{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 478ms forwards;}.CkKIDteE_80{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 484ms forwards;}.CkKIDteE_81{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 490ms forwards;}.CkKIDteE_82{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 496ms forwards;}.CkKIDteE_83{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 503ms forwards;}.CkKIDteE_84{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 509ms forwards;}.CkKIDteE_85{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 515ms forwards;}.CkKIDteE_86{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 521ms forwards;}.CkKIDteE_87{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 527ms forwards;}.CkKIDteE_88{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 533ms forwards;}.CkKIDteE_89{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 539ms forwards;}.CkKIDteE_90{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 545ms forwards;}.CkKIDteE_91{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 551ms forwards;}.CkKIDteE_92{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 557ms forwards;}.CkKIDteE_93{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 563ms forwards;}.CkKIDteE_94{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 569ms forwards;}.CkKIDteE_95{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 575ms forwards;}.CkKIDteE_96{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 581ms forwards;}.CkKIDteE_97{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 587ms forwards;}.CkKIDteE_98{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 593ms forwards;}.CkKIDteE_99{stroke-dasharray:4 6;stroke-dashoffset:5;animation:CkKIDteE_draw 2000ms linear 600ms forwards;}.CkKIDteE_100{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 606ms forwards;}.CkKIDteE_101{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 612ms forwards;}.CkKIDteE_102{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 618ms forwards;}.CkKIDteE_103{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 624ms forwards;}.CkKIDteE_104{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 630ms forwards;}.CkKIDteE_105{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 636ms forwards;}.CkKIDteE_106{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 642ms forwards;}.CkKIDteE_107{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 648ms forwards;}.CkKIDteE_108{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 654ms forwards;}.CkKIDteE_109{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 660ms forwards;}.CkKIDteE_110{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 666ms forwards;}.CkKIDteE_111{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 672ms forwards;}.CkKIDteE_112{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 678ms forwards;}.CkKIDteE_113{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 684ms forwards;}.CkKIDteE_114{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 690ms forwards;}.CkKIDteE_115{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 696ms forwards;}.CkKIDteE_116{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 703ms forwards;}.CkKIDteE_117{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 709ms forwards;}.CkKIDteE_118{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 715ms forwards;}.CkKIDteE_119{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 721ms forwards;}.CkKIDteE_120{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 727ms forwards;}.CkKIDteE_121{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 733ms forwards;}.CkKIDteE_122{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 739ms forwards;}.CkKIDteE_123{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 745ms forwards;}.CkKIDteE_124{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 751ms forwards;}.CkKIDteE_125{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 757ms forwards;}.CkKIDteE_126{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 763ms forwards;}.CkKIDteE_127{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 769ms forwards;}.CkKIDteE_128{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 775ms forwards;}.CkKIDteE_129{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 781ms forwards;}.CkKIDteE_130{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 787ms forwards;}.CkKIDteE_131{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 793ms forwards;}.CkKIDteE_132{stroke-dasharray:1 3;stroke-dashoffset:2;animation:CkKIDteE_draw 2000ms linear 800ms forwards;}.CkKIDteE_133{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 806ms forwards;}.CkKIDteE_134{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 812ms forwards;}.CkKIDteE_135{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 818ms forwards;}.CkKIDteE_136{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 824ms forwards;}.CkKIDteE_137{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 830ms forwards;}.CkKIDteE_138{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 836ms forwards;}.CkKIDteE_139{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 842ms forwards;}.CkKIDteE_140{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 848ms forwards;}.CkKIDteE_141{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 854ms forwards;}.CkKIDteE_142{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 860ms forwards;}.CkKIDteE_143{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 866ms forwards;}.CkKIDteE_144{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 872ms forwards;}.CkKIDteE_145{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 878ms forwards;}.CkKIDteE_146{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 884ms forwards;}.CkKIDteE_147{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 890ms forwards;}.CkKIDteE_148{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 896ms forwards;}.CkKIDteE_149{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 903ms forwards;}.CkKIDteE_150{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 909ms forwards;}.CkKIDteE_151{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 915ms forwards;}.CkKIDteE_152{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 921ms forwards;}.CkKIDteE_153{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 927ms forwards;}.CkKIDteE_154{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 933ms forwards;}.CkKIDteE_155{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 939ms forwards;}.CkKIDteE_156{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 945ms forwards;}.CkKIDteE_157{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 951ms forwards;}.CkKIDteE_158{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 957ms forwards;}.CkKIDteE_159{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 963ms forwards;}.CkKIDteE_160{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 969ms forwards;}.CkKIDteE_161{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 975ms forwards;}.CkKIDteE_162{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 981ms forwards;}.CkKIDteE_163{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 987ms forwards;}.CkKIDteE_164{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 993ms forwards;}.CkKIDteE_165{stroke-dasharray:3 5;stroke-dashoffset:4;animation:CkKIDteE_draw 2000ms linear 1000ms forwards;}@keyframes CkKIDteE_draw{100%{stroke-dashoffset:0;}}@keyframes CkKIDteE_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style></svg>

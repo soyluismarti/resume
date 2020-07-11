@@ -2,17 +2,26 @@
 
 
 body {
-      background-color: #ffffff;
-      font-family: montserrat;
+      font-family: 'Abril Fatface', cursive;
+      font-family: 'Roboto', sans-serif;
+      font-family: 'Roboto Slab', serif;
 
+}
+
+.bodygradient {
+      background: rgb(68, 77, 95);
+      background: linear-gradient(180deg, rgba(68, 77, 95, 1) 0%, rgba(50, 58, 74, 1) 26%, rgba(31, 38, 51, 1) 45%, rgba(31, 38, 51, 1) 79%);
 }
 
 .navMenu {
       background-color: #FFFFFF;
+      font-family: roboto;
+
 }
 
 .blueContainer {
       background: #1F2633;
+      font-family: roboto;
 }
 
 .resumeBtn {
@@ -31,6 +40,7 @@ body {
 
 .buttonArea {
       background: #1F2633;
+
 }
 
 .buttonexperiencewhite {

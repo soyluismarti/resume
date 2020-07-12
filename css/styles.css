@@ -5,7 +5,44 @@ body {
       font-family: 'Abril Fatface', cursive;
       font-family: 'Roboto', sans-serif;
       font-family: 'Roboto Slab', serif;
+      font-family: montserrat;
+      background-color: #e2d8c8;
 }
+
+/*colors*/
+
+.menucolor {
+      font-family: 'Roboto', sans-serif;
+      color: #1F2633;
+}
+
+.starredcolor {
+      background-color: #1F2633;
+}
+
+.maintitlecolor {
+
+      color: #1F2633;
+      font-family: 'Abril Fatface', cursive;
+}
+
+.maintextcolor {
+      color: #1F2633;
+}
+
+.secondarytextcolor {
+      color: black
+}
+
+.iconsFillSkills {
+      filter: invert(0)
+}
+
+.iconsFillmenu {
+      filter: invert(1)
+}
+
+/*Backgrounds*/
 
 .bodygradient {
       -moz-box-shadow: inset 0 0 10px #000000;
@@ -15,11 +52,11 @@ body {
 }
 
 .bodygradient {
-      background: #FFF4EB;
+      background-image: url(../image/background1.svg);
+      background-size: cover;
 }
 
 .navNeo {
-      background-color: #FFF4EB;
       -moz-box-shadow: inset 0 0 18px #000000;
       -webkit-box-shadow: 0 0 5px #b18a79;
       box-shadow: 0 0 5px #caab9c;
@@ -29,10 +66,9 @@ body {
 .fullW {
       display: table;
       width: 100%;
-      background-image: url(../image/graphics2_animated.SVG);
+      background-image: url(../image/graphics2_animated.svg);
       height: 30vw;
       padding-top: 40px;
-
 }
 
 
@@ -64,7 +100,6 @@ body {
 
 .skills {
 
-      background-color: #FFF4EB;
       -webkit-box-shadow:
             8px 8px 4px #ffffff;
       -moz-box-shadow:
@@ -79,7 +114,6 @@ body {
       height: 70px;
       width: 100%;
       display: block;
-
 }
 
 .containerTitle {}
@@ -121,11 +155,6 @@ body {
 }
 
 /*Experience*/
-
-.graphicSvg2 {
-      background-image: url(../image/graphics2_animated.svg);
-
-}
 
 .titleinsideblue {
       text-align: right;
@@ -182,6 +211,19 @@ body {
 .footer {
       -webkit-box-shadow: 0 0 5px #b18a79;
       box-shadow: 0 0 2px #caab9c;
-      background-color: #FFF4EB;
       font-family: ROBOTO;
+}
+
+
+.buttonwhitehome {
+      -webkit-box-shadow: 0 0 5px #b18a79;
+      box-shadow: 0 0 2px #caab9c;
+      border-radius: 14px;
+      width: 36vw;
+      height: 36vw;
+      margin: 14px;
+}
+
+.textlowbutton {
+      font-size: 3.5vw;
 }

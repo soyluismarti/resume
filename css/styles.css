@@ -58,9 +58,16 @@ body {
       padding-bottom: 150px;
 }
 
-.bodygradient {
-      background-image: url(../image/background1.svg);
+.bodygradient2 {
+      background: url(../image/background1.svg);
       background-size: cover;
+      background-color: #e2d8c8;
+
+      .bodygradientmenu {
+            background-image: url(../image/background2.svg);
+            background-size: cover;
+      }
+
 }
 
 .bodygradientmenu {
@@ -101,7 +108,6 @@ body {
 
 .flo-right {
 
-      background-image: url(../image/Untitled-2.png);
       background-size: contain;
       background-repeat: no-repeat;
       height: 30vw;

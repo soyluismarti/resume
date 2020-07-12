@@ -9,27 +9,27 @@
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap"
             rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap"
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
             rel="stylesheet">
 
-      <link rel="stylesheet" href="css/home.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+            integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
       <link rel="stylesheet" href="css/animation.css">
       <link rel="stylesheet" href="css/styles.css">
-
       <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
       <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-analytics.js"></script>
 
       <title>Contact me</title>
 </head>
 
-<body style=background-color:white>
+<body class="bodygradient bodygradient2">
 
 
       <!--topmenu-->
 
-      <nav style="background-color: white;;" class="navMenu py-2">
+      <nav class="navMenu py-2">
             <ul class=" nav justify-content-center" style=" border-radius:27px">
                   <li class="nav-item">
                         <a style="padding: 10px;" class="nav-link" href="aboutme.html"><img src="image/profileB.svg"
@@ -53,9 +53,66 @@
                   </li>
             </ul>
 
+
+            <header>
+
+                  <div style="padding-left: 10%;" class="d-flex justify-content-right">
+                        <h2 class="maintitlecolor pb-3 d-inline py-2 mb-6 font-weight-bold">contact me </h2>
+                  </div>
+
+                  <div class="col-md-6 mb-4">
+
+                        <ul style="padding-left: 3%;" class="list-group">
+
+                              <li class="list-group-item"
+                                    style="border: none; padding-bottom: 0 px;padding-top: 0%; font-size: 13px;  background-color: transparent ">
+                                    <div class="md-v-line"></div><i style="color: #D1A250;padding-right: 6px;"
+                                          class="fa fa-mobile"></i>551-998-7611
+                              </li>
+                              <li class="list-group-item"
+                                    style="border: none; padding-bottom: 0 px;padding-top: 0%;font-size: 13px;   background-color: transparent">
+                                    <div class=" md-v-line">
+                                    </div><i style="color: #D1A250;padding-right: 6px;"
+                                          class="fa fa-envelope"></i>homesbygabby@gmail.com
+                              </li>
+                              <li class="list-group-item"
+                                    style="border: none; padding-bottom: 0 px;padding-top: 0%;font-size: 13px;   background-color: transparent">
+                                    <div class="md-v-line"></div><i style="color: #D1A250;padding-right: 6px;"
+                                          class="fa fa-linkedin"></i>linkedin/in.gabrielaespinal
+                              </li>
+
+                        </ul>
+
+                  </div>
+            </header>
+
+
+            <!--Contactform-->
+            <div>
+                  <div class="container">
+                        <form id="contact" style="padding:0% 7% 0% 7%;" action="" method="post">
+                              <input id="userName" type="text" name="name" placeholder="Full name" tabindex="1" required
+                                    autofocus>
+                              <input id="userEmail" type="email" name="mail" placeholder="Your Email Address"
+                                    tabindex="2" required>
+                              <input id="userTel" type="tel" name="phone" placeholder="Your Phone Number (optional)"
+                                    tabindex="3" optional>
+                              <textarea id="userMessage" class="formControl" name="message"
+                                    placeholder="Type your message here...." tabindex="5" required></textarea>
+                              <button type="submit" name="submit" id="contact-submit"
+                                    data-submit="...Sending">SEND</button>
+                        </form>
+
+
+
+                  </div>
+
+
+            </div>
+
       </nav>
       <!--Social links-->
-      <div class="pt-4 w-100 btn-group justify-content-center">
+      <div class="fixed-bottom pt-4 w-100 btn-group justify-content-center">
             <a href="tel:+15519987611" class="btn my-auto">
                   <h2 style="font-size:0.6em"><span><img src="image/contactB.svg" alt="contact"
                                     width="20px"></span><span> Call</span>
@@ -91,62 +148,6 @@
             </a>
       </div>
       <!--Contact title-->
-
-
-      <header>
-
-            <div style="padding-left: 10%;" class="d-flex justify-content-right">
-                  <h2 style="font-size: 9vw;" class="pb-3 d-inline py-2 mb-6 font-weight-bold">contact me </h2>
-            </div>
-
-            <div class="col-md-6 mb-4">
-
-                  <ul style="padding-left: 3%;" class="list-group">
-
-                        <li class="list-group-item"
-                              style="border: none; padding-bottom: 0 px;padding-top: 0%; font-size: 13px; ">
-                              <div class="md-v-line"></div><i style="color: #D1A250;padding-right: 6px;"
-                                    class="fa fa-mobile"></i>551-998-7611
-                        </li>
-                        <li class="list-group-item"
-                              style="border: none; padding-bottom: 0 px;padding-top: 0%;font-size: 13px;">
-                              <div class=" md-v-line">
-                              </div><i style="color: #D1A250;padding-right: 6px;"
-                                    class="fa fa-envelope"></i>homesbygabby@gmail.com
-                        </li>
-                        <li class="list-group-item"
-                              style="border: none; padding-bottom: 0 px;padding-top: 0%;font-size: 13px;">
-                              <div class="md-v-line"></div><i style="color: #D1A250;padding-right: 6px;"
-                                    class="fa fa-linkedin"></i>linkedin/in.gabrielaespinal
-                        </li>
-
-                  </ul>
-
-            </div>
-      </header>
-
-
-      <!--Contactform-->
-      <div>
-            <div class="container">
-                  <form id="contact" style="padding:0% 7% 0% 7%;" action="" method="post">
-                        <input id="userName" type="text" name="name" placeholder="Full name" tabindex="1" required
-                              autofocus>
-                        <input id="userEmail" type="email" name="mail" placeholder="Your Email Address" tabindex="2"
-                              required>
-                        <input id="userTel" type="tel" name="phone" placeholder="Your Phone Number (optional)"
-                              tabindex="3" optional>
-                        <textarea id="userMessage" class="formControl" name="message"
-                              placeholder="Type your message here...." tabindex="5" required></textarea>
-                        <button type="submit" name="submit" id="contact-submit" data-submit="...Sending">SEND</button>
-                  </form>
-
-
-
-            </div>
-
-
-      </div>
 
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 

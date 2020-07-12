@@ -151,9 +151,9 @@ body {
 .skills {
 
       -webkit-box-shadow:
-            8px 8px 4px #ffffff;
+            0px 0px 4px #bca49a;
       -moz-box-shadow:
-            8px 8px 4px #ffffff;
+            0px 0px 4px #bca49a;
       -o-box-shadow:
             8px 4px 8px #bca49a;
       inset 0 0 8px #bca49a;
@@ -166,7 +166,49 @@ body {
       display: block;
 }
 
-.containerTitle {}
+.accordionXContainer {
+      /*Shadow accordion*/
+      border: #bb9484;
+      border-width: 2pt;
+      display: block;
+      margin: 20px;
+      -webkit-box-shadow:
+            8px 8px 4px #bb9484;
+      -moz-box-shadow:
+            8px 8px 4px #bb9484;
+      -o-box-shadow:
+            8px 4px 8px #bb9484;
+      inset: 10px 8px #bca49a;
+      box-shadow:
+            8px 5px 5px #bb9484;
+      inset: 10px 8px #bca49a;
+
+}
+
+.accordiontop {
+      background-color: #e2d8c8;
+      border: NONE;
+      margin: none;
+
+}
+
+.accordiontop:hover {
+      background-color: #d8cdbc;
+
+}
+
+
+.accordionbottom {
+      background-color: #e2d8c8;
+      border-radius: 0 0 30px 30px;
+      box-shadow:
+            8px 5px 5px #bb9484;
+      inset: 10px 8px #bca49a;
+}
+
+.accordionTXT {
+      color: #745447;
+}
 
 .resumeBtn {
       letter-spacing: 1px;

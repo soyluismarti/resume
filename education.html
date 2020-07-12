@@ -9,17 +9,21 @@
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap"
+            rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
             rel="stylesheet">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
             integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
       <link rel="stylesheet" href="css/animation.css">
       <link rel="stylesheet" href="css/styles.css">
-      <link rel="stylesheet" href="css/home.css">
+      <!--JS-->
+      <script src="api.js" async></script>
+
       <title>My education</title>
 </head>
 
-<body>
+<body class="bodygradient2">
       <!--topmenu-->
       <nav class="mainmenucolor navNeo fixed-top navMenu py-2">
             <ul class="nav justify-content-center">
@@ -47,7 +51,7 @@
       </nav>
 
       <!--ALTMENU-->
-      <div class="pt-5 mt-5 fullW">
+      <div class="pt-4 mt-5 fullW">
             <div class="pt-5 flo-left">
                   <div>
                         <span class="pt-5 maintitlecolor" style="font-size:14vw;">
@@ -57,38 +61,37 @@
             </div>
 
       </div>
-      <div class="graphicSvg2" style="height: 40vw; background-size: cover;">
 
-      </div>
-
-
-
-      <!--TABLE skills images-->
-
-      <div id="accordion">
-            <div class="accordionX card">
-                  <div class="card-header" id="headingOne">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne"
-                              aria-expanded="false" aria-controls="collapseOne">
-                              <div style="width: 30%;" class="float-right"><img src="image/KOVATS.svg" width="100%"
+      <div id="accordion" class="accordionXContainer">
+            <div class="card">
+                  <div class="card-header accordiontop" id="headingOne">
+                        <button class=" btn btn-link collapsed accordiontop" data-toggle="collapse"
+                              data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                              <div style="width: 33%;" class="float-left "><img src="image/KOVATS.svg" width="100%"
                                           alt="">
                               </div>
-                              <div style="width: 70%;" class="float-left">
+                              <div style="width: 60%;" class="float-right">
 
-                                    <p class="titleEducation"><b>Real Estate Specialization</b>
+                                    <div style="font-family: 'Roboto', sans-serif; text-align: left; font-weight: bolder;"
+                                          class="h6 accordionTXT"><b>Real Estate
+                                                Specialization</b>
                                           </br>
-                                          Jun 2019 - Aug 2019
-                                          </br>
-                                          Kovats Real Estate School
-                                          </br>
-                                          Paramus, New Jersey </br>
-                                    </p>
+                                          <p style="font-size:13px"> Jun 2019 - Aug 2019
+                                                </br>
+                                                Kovats Real Estate School
+                                                </br>
+                                                Paramus, New Jersey </br>
+                                          </p>
+
+                                    </div>
                               </div>
+
                         </button>
                   </div>
-                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div id="collapseOne" class="collapse accordiontop" aria-labelledby="headingOne"
+                        data-parent="#accordion">
                         <div class="card-body">
-                              <ul class="listaWork">
+                              <ul class="listaWork accordionTXT" style="font-size:12px;">
                                     <li>Principals and Practices of New Jersey Real Estate is also an excellent
                                           immediate reference for every licensed salesperson and broker.
                                     </li>
@@ -97,25 +100,37 @@
                         </div>
                   </div>
             </div>
-            <div class="accordionXcard">
-                  <div class="card-header" id="headingTwo">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
-                              aria-expanded="false" aria-controls="collapseTwo">
-                              <div style="width: 30%;" class="float-right"><img src="image/nobU.svg" width="100%"
+            <div class="card">
+                  <div class="card-header accordiontop " id="headingTwo">
+                        <button class="btn btn-link collapsed accordiontop" data-toggle="collapse"
+                              data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              <div style="width: 33%;" class="float-left"><img src="image/nobU.svg" width="100%" alt="">
+                              </div>
+                              <!--  <button class=" btn btn-light collapsed accordiontop" data-toggle="collapse"
+                              data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                              <div style="width: 33%;" class="float-left "><img src="image/KOVATS.svg" width="100%"
                                           alt="">
                               </div>
+                              <div style="width: 60%;" class="float-right">
 
-                              <div style="width: 70%;" class="float-left">
-                                    <p class=" titleEducation"><b>Associate’s Degree</b> </br>
-                                          Dec 2010-Jan 2014 </br>
-                                          Hospitality Administration / Management </br>
-                                          Bergen Community College </br></p>
+                           -->
+                              <div style="width: 60%;" class="float-right">
+                                    <div
+                                          style="font-family: 'Roboto', sans-serif; text-align: left; font-weight: bolder;">
+                                          <p class="h6 accordionTXT"><b>Associate’s Degree</b> </br></p>
+                                          <p class="accordionTXT" style="font-size:13px;">Dec 2010-Jan 2014 </br>
+                                                Hospitality Administration / Management </br>
+                                                Bergen Community College </br></p>
+                                    </div>
                               </div>
+
                         </button>
                   </div>
-                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+
+                  <div id="collapseTwo" class="collapse accordiontop" aria-labelledby="headingTwo"
+                        data-parent="#accordion">
                         <div class="card-body">
-                              <ul class="listaWork">
+                              <ul class="listaWork accordionTXT" style="font-size:12px;">
                                     <li>Overseeing personnel, ensuring that the facilities are properly maintained,
                                           taking steps to ensure customer satisfaction and overseeing the upkeep</br>
                                           of administrative and financial records.
@@ -127,39 +142,45 @@
                         </div>
                   </div>
             </div>
-            <div class="accordionXcard">
-                  <div class="card-header" id="headingThree">
+            <div class="card">
+                  <div class="card-header accordiontop" id="headingThree">
                         <h5 class="mb-0">
                               <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
                                     aria-expanded="false" aria-controls="collapse">
-                                    <div style="width: 30%;" class="float-right"><img src="image/certification.svg"
+                                    <div style="width: 33%;" class="float-left"><img src="image/certification.svg"
                                                 width="100%" alt="">
                                     </div>
 
-                                    <div style="width: 70%;" class="float-left">
-                                          <p class="titleEducation"><b>Courses and Certifications</b></br>
-                                                Different modalities</p>
+                                    <div style="width: 60%;" class="float-right">
+                                          <div style="font-family: 'Roboto', sans-serif; text-align: left; font-weight: bolder;"
+                                                class="h6 accordionTXT"><b>Courses and certifications</b>
+                                                </br>
+                                                <p style="font-size:13px"> Jun 2019 - Aug 2019
+                                                      <b>Courses and Certifications</b></br>
+                                                      Different modalities</p>
 
+                                          </div>
                                     </div>
                               </button>
                         </h5>
                   </div>
-                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                  <div id="collapseThree" class="collapse accordiontop" aria-labelledby="headingThree"
+                        data-parent="#accordion">
                         <div class="card-body">
                               <h1></h1>
 
                               </ul>
                               <figure>
-                                    <figcaption style="font-size:14px ;color: #D1A250;"><b>Indeed</b></figcaption>
-                                    <ul class="listaWork">
+                                    <figcaption style="font-size:14px ;color: #e2d8c8;"><b>Indeed</b></figcaption>
+                                    <ul class="listaWork accordionTXT">
                                           <li>Computer Skills: Expert</li>
                                           <li>Real Estate Proficient</li>
                                           <li>Customer Focus & Orientation Highly Proficient
                                           </li>
                               </figure>
                               <figure>
-                                    <figcaption style="font-size:14px ;color: #D1A250;"><b>LinkedIn</b></figcaption>
-                                    <ul class="listaWork">
+                                    <figcaption style="font-size:14px ;color: #e2d8c8;"><b>LinkedIn</b></figcaption>
+                                    <ul class="listaWork accordionTXT">
                                           <li>Microsoft Excel </li>
                                           <li>Microsoft Word
                                           <li>Microsoft Outlook</li>
@@ -170,6 +191,10 @@
             </div>
       </div>
 
+
+
+
+      <div style="margin-bottom: 100px;"></div>
       <!--footer-->
       <footer class="starredcolor footer w-100 btn-group justify-content-center fixed-bottom">
             <a href="tel:+15519987611" class="iconsFillmenu btn my-auto">

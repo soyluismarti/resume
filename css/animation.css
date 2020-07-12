@@ -8,15 +8,32 @@
 
 .animationbutton {
 
-      background-color: #ffffff;
+      background-color: #e1cfb3;
+      box-shadow: 3px 5px 5px #ffffff;
+      border-radius: 20px;
+      transition: all 1s ease;
+      transform: scale(0.8);
+}
+
+.animationbutton:hover {
+      background-color: #e7ded0;
+      /*  Making button bigger on hover  */
+      transform: scale(1.0) perspective(1px)
+}
+
+
+.animationbuttonHome {
+
+      background-color: #e2d8c8;
       box-shadow: 3px 5px 5px #ffffff;
       border-radius: 20px;
       transition: all 1s ease;
       transform: scale(1);
 }
 
-.animationbutton:hover {
-      background-color: #ffffff;
+
+.animationbuttonHome:hover {
+      background-color: #e2d8c8;
       /*  Making button bigger on hover  */
       transform: scale(1.2) perspective(1px)
 }

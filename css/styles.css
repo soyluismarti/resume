@@ -67,13 +67,20 @@ body {
 .bodygradient3 {
       background-image: url(../image/experience.jpg);
       background-size: cover;
-}
+      background-repeat: repeat;
 
+}
 
 
 .bodygradientmenu {
       background-image: url(../image/background2.svg);
       background-size: cover;
+}
+
+.bodyExpe {
+      background-image: url(../image/backgroun-experience.png);
+      background-size: cover;
+
 }
 
 
@@ -100,13 +107,6 @@ body {
       width: 50%;
 }
 
-.flo-left {
-      font-family: 'Abril Fatface', cursive;
-      letter-spacing: 2px;
-      line-height: 5vw;
-      padding-left: 40px;
-}
-
 .flo-right {
       background-image: url(../image/Untitled-2.png);
       background-size: contain;
@@ -114,9 +114,39 @@ body {
       height: 30vw;
       padding-bottom: 150px;
 
+}
 
+.flo-left {
+      font-family: 'Abril Fatface', cursive;
+      letter-spacing: 2px;
+      line-height: 5vw;
+      padding-left: 40px;
+}
+
+
+.fullW2 {
+      display: table;
+      background-image: url(../image/graphics2_animated.svg);
+}
+
+.flo-left2,
+.flo-right2 {
+      display: table-cell;
+      width: 50%;
+}
+
+.flo-left2 {
+
+      letter-spacing: 2px;
 
 }
+
+.flo-right2 {
+      height: 30vw;
+
+}
+
+
 
 .skills {
 
@@ -152,21 +182,14 @@ body {
 
 /*buttons*/
 
-.buttonArea {
-      background: #1F2633;
-
-}
 
 .buttonexperiencewhite {
       background-color: #e2d8c8;
       border-radius: 0 0 37px 37px;
-      height: 70px;
-      width: 100%;
       display: block;
       border-radius: 20px;
-      height: 175px;
-      width: 150px;
-      padding: 10px;
+      height: 280px;
+      width: 250px;
       -webkit-box-shadow:
             8px 8px 4px #bb9484;
       -moz-box-shadow:
@@ -180,13 +203,6 @@ body {
 
 }
 
-.buttonexperienceyellow {
-      background-color: #FFEBCA;
-      border-radius: 20px;
-      height: 150px;
-      width: 130px;
-
-}
 
 /*Experience*/
 
@@ -256,6 +272,7 @@ body {
       width: 36vw;
       height: 36vw;
       margin: 14px;
+      opacity: 0.8;
 }
 
 .textlowbutton {

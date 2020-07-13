@@ -1,13 +1,17 @@
 /* *Generales* */
 
 
+
 body {
       font-family: 'Abril Fatface', cursive;
       font-family: 'Roboto', sans-serif;
       font-family: 'Roboto Slab', serif;
       font-family: 'Montserrat', sans-serif;
-
       background-color: #e2d8c8;
+}
+
+.screenwebsite {
+      visibility: hidden;
 }
 
 /*colors*/
@@ -49,6 +53,17 @@ body {
 
 }
 
+.buttonstyle {
+      letter-spacing: 0.3px;
+      font-size: 0.6em;
+      font-family: roboto;
+      text-transform: uppercase;
+      letter-spacing: 0.2vw;
+      font-weight: 400;
+}
+
+
+
 /*Backgrounds*/
 
 .bodygradient {
@@ -64,11 +79,28 @@ body {
       background-color: #e2d8c8;
 }
 
+.navbarscreen {
+      display: none;
+}
+
 .bodygradient3 {
       background-image: url(../image/experience.jpg);
       background-size: cover;
       background-repeat: repeat;
 
+}
+
+.mainhometitlecolor {
+      color: #ffffff;
+      font-family: 'Abril Fatface', cursive;
+      font-size: 11vw;
+      line-height: 7vw;
+
+}
+
+
+.starthome {
+      display: none;
 }
 
 
@@ -78,7 +110,6 @@ body {
 }
 
 .bodyExpe {
-      background-image: url(../image/backgroun-experience.png);
       background-size: cover;
 
 }
@@ -91,12 +122,13 @@ body {
       border-radius: 0px 0px 27px 27px;
 }
 
+
 .fullW {
       display: table;
       width: 100%;
       background-image: url(../image/graphics2_animated.svg);
-      height: 30vw;
       padding-top: 40px;
+      float: left;
 }
 
 
@@ -148,6 +180,9 @@ body {
 
 
 
+/*div Colorizer*/
+
+
 .skills {
 
       -webkit-box-shadow:
@@ -172,15 +207,11 @@ body {
       border-width: 2pt;
       display: block;
       margin: 20px;
-      -webkit-box-shadow:
-            8px 8px 4px #bb9484;
-      -moz-box-shadow:
-            8px 8px 4px #bb9484;
-      -o-box-shadow:
-            8px 4px 8px #bb9484;
+      -webkit-box-shadow: 8px 8px 4px #bb9484;
+      -moz-box-shadow: 8px 8px 4px #bb9484;
+      -o-box-shadow: 8px 4px 8px #bb9484;
       inset: 10px 8px #bca49a;
-      box-shadow:
-            8px 5px 5px #bb9484;
+      box-shadow: 8px 5px 5px #bb9484;
       inset: 10px 8px #bca49a;
 
 }
@@ -248,42 +279,6 @@ body {
 
 /*Experience*/
 
-.titleinsideblue {
-      text-align: right;
-      color: #CECECE;
-      font-size: 20px;
-
-}
-
-.textTitleWork {
-      font-size: 5vw;
-      text-align: left;
-      vertical-align: bottom;
-      font-weight: 100;
-      color: white;
-      width: 40%;
-      float: right;
-      padding-top: 10vw;
-
-
-}
-
-.titleExperience {
-      font-size: 13px;
-      font-weight: 500;
-      width: 60%;
-      float: left;
-      color: #D1A250;
-
-}
-
-.imageExperience {
-      width: 30%;
-      float: right;
-      padding-right: 10%;
-      display: inline-block;
-
-}
 
 
 .listaWork {
@@ -300,10 +295,12 @@ body {
       width: 100%;
 }
 
-.footer {
+.footer2 {
       -webkit-box-shadow: 0 0 5px #b18a79;
       box-shadow: 0 0 2px #caab9c;
-      font-family: ROBOTO;
+      font-family: roboto;
+      font-size: 0.3em;
+
 }
 
 
@@ -318,5 +315,5 @@ body {
 }
 
 .textlowbutton {
-      font-size: 3.5vw;
+      font-size: 1em;
 }

@@ -1,10 +1,8 @@
-document.getElementById('flipcard')
+function ocultar({
+            alert("se Oculta");
+      }
 
-console.log(flipcard)
 
-function saludo() {
-
-      var saludo = "hola";
-}
-
-console.log(saludo)
+      function mostrar({
+            alert("se muestra");
+      })

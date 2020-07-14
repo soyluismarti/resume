@@ -1,3 +1,5 @@
+font-family: 'Poppins',
+sans-serif;
 /* ESTILOS NORMALES (para móviles en vertical)
    ========================================================================= /
  
@@ -9,7 +11,7 @@ p    { ... }
  
 / Móviles en horizontal o tablets en vertical
    ------------------------------------------------------------------------- /
-@media (min-width: 768px) { }
+
  
 / Tablets en horizontal y escritorios normales
    ------------------------------------------------------------------------- /
@@ -17,19 +19,25 @@ p    { ... }
  
 / Escritorios muy anchos
    ------------------------------------------------------------------------- */
-@media (min-width: 785px) {
 
-      .bodygradientmenu {
-            visibility: hidden;
+
+
+/* Móviles en horizontal o tablets en vertical
+   ------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+
+      body {
+            background-color: black;
       }
+}
+
+@media (min-width: 768px) {
+
 
       .navbarscreen {
             display: inline-block;
       }
 
-      .screenwebsite {
-            visibility: visible;
-      }
 
 
       .navMenu {
@@ -38,9 +46,7 @@ p    { ... }
             height: 5.5vw;
       }
 
-      .navbarmobil {
-            display: none;
-      }
+
 
       .mainhometitlecolor {
             float: right;
@@ -216,13 +222,5 @@ p    { ... }
             box-shadow: -2px 1px 34px 5px #bdb2ae, inset -110px 112px 12px -108px #ffffff;
       }
 
-
-}
-
-@media (min-width: 784px) {
-      body {
-            background-color: #000000;
-            background-image: none;
-      }
 
 }

@@ -1,29 +1,316 @@
-/* ESTILOS NORMALES (para móviles en vertical)
-   ========================================================================= /
- 
-body { ... }
-p    { ... }
- 
-/ RESPONSIVE
-   ========================================================================= /
- 
-/ Móviles en horizontal o tablets en vertical
-   ------------------------------------------------------------------------- /
+body {
+      font-family: 'Montserrat', sans-serif;
+      font-family: 'Abril Fatface', cursive;
+      font-family: 'Roboto', sans-serif;
+      font-family: 'Roboto Slab', serif;
+      font-family: Poppins;
+      background-color: #ebe3d7;
+}
 
- 
-/ Tablets en horizontal y escritorios normales
-   ------------------------------------------------------------------------- /
-@media (min-width: 1024px) { }
- 
-/ Escritorios muy anchos
-   ------------------------------------------------------------------------- */
-
+html {
+      scroll-behavior: smooth;
+}
 
 
 /* Móviles en horizontal o tablets en vertical
    ------------------------------------------------------------------------- */
+
+@media (max-width: 1024px) {
+      .buttoncontent {
+            visibility: visible;
+      }
+
+      .hero {
+            background-image: url(../image/backgroundhomeipad.svg);
+            background-size: cover;
+            height: 100vh;
+            text-align: left;
+            background-attachment: fixed;
+            color: #ebe3d7;
+      }
+
+      .tarjeta50 {
+            width: 50%;
+            height: 50%;
+            color: #9b8d75;
+      }
+
+      .imagenesexp {
+            width: 20%;
+
+      }
+
+
+      .maintitlecolor2 {
+            text-align: left;
+            justify-content: left;
+            color: #37576A;
+            font-family: 'Abril Fatface', cursive;
+            font-size: 5vw;
+            line-height: 5vw;
+            width: 100%;
+            margin-top: 10vw;
+      }
+
+
+      .maintitlecolor1 {
+            text-align: left;
+            justify-content: center;
+            color: #37576A;
+            font-family: 'Abril Fatface', cursive;
+            font-size: 10vw;
+            text-align: left;
+            width: 100%;
+      }
+
+      .maintitlecolorPoppins {
+            text-align: center;
+            justify-content: center;
+            color: #37576A;
+            font-family: 'Poppins';
+            font-size: 7vw;
+            text-align: center;
+            width: 50%;
+      }
+
+      .maintitlecolor1 {
+            text-align: center;
+            justify-content: center;
+            color: #37576A;
+            font-family: 'Abril Fatface', cursive;
+            font-size: 14vw;
+            text-align: left;
+            width: 50%;
+      }
+
+      .subtitlemovil {
+            line-height: 10vw;
+            font-size: 10vw;
+            font-weight: 100;
+
+
+      }
+
+      .containertitleabout {
+            height: 40vw;
+            background-size: cover;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            background-image: url(../image/backgroundoffic.svg);
+      }
+
+      .parrafos {
+
+            font-size: 1.2vw;
+            color: #6a5e37;
+            margin: 0, 0, 0, 30%;
+      }
+}
+
 @media (max-width: 768px) {
 
+      body {
+
+            background-image: url(../image/body.svg);
+            background-size: cover;
+      }
+
+      .maintitlecolor1 {
+            text-align: left;
+            justify-content: left;
+            color: #37576A;
+            font-family: 'Poppins';
+            font-size: 10vw;
+            text-align: left;
+            width: 100%;
+      }
+
+      .maintitlecolorPoppins {
+            text-align: center;
+            justify-content: center;
+            color: #37576A;
+            font-family: 'Poppins';
+            font-size: 10vw;
+            text-align: center;
+            width: 100%;
+      }
+
+      .footer {
+            position: fixed;
+            bottom: 0em;
+            z-index: 1000;
+      }
+
+      .focusanimation:active {
+            transform: translate(0px, 5px);
+            -webkit-transform: translate(0px, 5px);
+            box-shadow: 0px 1px 0px 0px;
+            border-radius: 20px;
+      }
+
+
+      .animationbutton {
+
+            background-color: #e2d8c8;
+            box-shadow: 3px 5px 5px #ffffff;
+            border-radius: 20px;
+            transition: all 1s ease;
+            transform: scale(0.9);
+      }
+
+      .animationbutton:hover {
+            background-color: #e7ded0;
+            /*  Making button bigger on hover  */
+            transform: scale(1.0) perspective(1px)
+      }
+
+
+      .animationbuttonHome {
+
+            background-color: #e2d8c8;
+            box-shadow: 3px 5px 5px #ffffff;
+            border-radius: 20px;
+            transition: all 1s ease;
+            transform: scale(1);
+      }
+
+
+      .animationbuttonHome:hover {
+            background-color: #e2d8c8;
+            /*  Making button bigger on hover  */
+            transform: scale(1.0) perspective(1px)
+      }
+
+      .parrafos {
+
+            margin: 3vw 4vw 3vw 3vw;
+            font-size: 12px;
+            margin-bottom: 6vw;
+            color: #6a5e37;
+      }
+
+      .containertitleExperiencia {
+            position: relative;
+            display: inline-block;
+            height: 40vw;
+            background-size: cover;
+            width: 100%;
+
+
+
+      }
+
+      .containertitleExperiencia>span {
+            text-align: center;
+            margin-top: 40vw;
+      }
+
+
+
+      .containertitleEducation {
+            height: 50vw;
+            background-size: cover;
+            padding-top: 20vw;
+            display: inline-block;
+            width: 100%;
+
+
+      }
+
+      .containertitleEducation>span {
+            text-align: center;
+
+
+
+      }
+
+
+      .containertitleabout {
+            height: 120vw;
+            background-size: cover;
+            padding-top: 20vw;
+            width: 100%;
+            display: inline-block;
+
+      }
+
+      .containertitleEducation,
+      .containertitleExperiencia .containertitleabout {
+            color: #37576A;
+      }
+
+      .hero {
+            background-image: url(../image/background2.svg);
+            background-size: cover;
+            height: 100vh;
+            text-align: left;
+            background-attachment: fixed;
+            color: #ebe3d7;
+      }
+
+      .hero-text {
+            position: relative;
+            font-family: 'Abril Fatface', cursive;
+            top: 80%;
+            transform: translateY(-50%);
+            letter-spacing: 2px;
+      }
+
+      .container {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-direction: column;
+
+      }
+
+
+      .animation {
+            font-family: Helvetica, Arial, sans-serif;
+            letter-spacing: 2px;
+            color: #fff;
+            display: inline-block;
+            animation: fadeIn 1.5s forwards;
+            opacity: 0;
+            transition-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86)
+      }
+
+
+      .first {
+            background-color: #dd9f23;
+            font-family: poppins;
+            padding: 1vw;
+            font-size: 10vw;
+            font-weight: 700;
+            line-height: 10vw;
+            color: #f1f9fd;
+
+
+      }
+
+      .second {
+            font-family: poppins;
+            font-size: 10vw;
+            font-weight: 700;
+            line-height: 10vw;
+            color: #b8d0d5;
+
+
+
+      }
+
+      .third {
+            font-family: poppins;
+            animation: secondSpan 1.5s forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
+            z-index: -1;
+            display: inline-block;
+            color: #b8d0d5;
+            font-size: 3vw;
+
+      }
+
+      .oh {}
 
       .experiencecards {
             margin-top: 0vw;
@@ -34,9 +321,13 @@ p    { ... }
       .accordionXContainerRES {
 
             width: 100%;
-            margin: 0VW;
+            margin: 5VW;
+            width: 90%;
+            padding-bottom: 15%;
+
 
       }
+
 
       .accordionmovil {
 
@@ -45,13 +336,97 @@ p    { ... }
       }
 
       .tarjeta50 {
-            width: 100%;
-            height: 100%;
+            width: 95%;
+            height: 20%;
             color: #9b8d75;
+            background-color: #ebe3d7;
+            display: inline-block;
+
+      }
+
+
+      .tituloexpe {
+            font-size: 4vw;
+            letter-spacing: 0px;
+            line-height: 4vw;
+            font-weight: bolder;
+            color: #9b8d75;
+            text-align: left;
+
+
+
+      }
+
+      .imagenesexp {
+            width: 50%;
+      }
+
+      .mainsubtitlecolor1 {
+            font-family: 'Abril Fatface', cursive;
+            font-weight: ;
+            font-size: 10vw;
+            text-align: left;
+            color: rgb(135, 93, 66);
+            width: 100%;
+
+      }
+
+      .maintitlecolor2 {
+
+            color: #37576A;
+            font-family: 'Poppins';
+            font-size: 11vw;
+            line-height: 2vw;
+            font-weight: 700;
+            width: 100%;
+            display: inline-block;
+            text-align: center;
+      }
+
+      .maintitlecolor3 {
+            text-align: left;
+            justify-content: left;
+            color: #4e6674;
+            font-family: 'Abril Fatface', cursive;
+            font-size: 7vw;
+            line-height: 12vw;
+            margin-top: 10%;
+
+      }
+
+      .animation {
+            max-width: 70%;
+
+      }
+
+      .iconseducation {
+            width: 100%;
+            margin-bottom: 0vw;
+            background-color: #cbb5ad;
+            display: block;
+            position: relative;
+      }
+
+      .accordionTXT {
+
+            font-family: 'Roboto', sans-serif;
+            text-align: left;
+            font-weight: bolder;
+            font-size: 3vw;
+            color: #9b8d75;
+      }
+
+      #buttonsmobile {
+            visibility: visible;
       }
 }
 
+
+
+
+
 @media (min-width: 768px) {
+
 
       .iconseducation {
             display: inline-block;
@@ -59,17 +434,10 @@ p    { ... }
             margin-bottom: 10vw;
       }
 
-      .maintitlecolor {
-
-            color: #37576A;
-            font-family: 'Abril Fatface', cursive;
-            font-size: 10vw;
-
-      }
 
       .experiencecards {
-            margin-top: 5vw;
-            margin-left: 7vw;
+            margin-top: 0vw;
+            margin-left: 0vw;
             border-radius: 3vw;
       }
 
@@ -100,12 +468,18 @@ p    { ... }
       }
 
       .homeTitle {
-            padding-top: 10vw;
             align-items: center;
             display: flex;
             text-align: center;
 
 
+      }
+
+      .experience {
+            height: 640px;
+            background-image: url(../image/background1.svg);
+            background-color: #e2d8c8;
+            background-size: cover;
       }
 
       .education {
@@ -132,7 +506,7 @@ p    { ... }
             justify-content: center;
       }
 
-      .buttoncontent {}
+
 
       .buttonstyle2 {
 
@@ -147,33 +521,15 @@ p    { ... }
       }
 
 
-      /*.buttonwhitehome {
-            width: 20vw;
-            height: 20vw;
-            float: left;
-
-            .buttoncontent {
-            max-width: 50%;
-            float: right;
-      }
-
-      }
-
-
-      .footer2 {
-            height: 5vw;
-            font-size: 0.3em;
-      }
-
-
-
       /* SCREEN WEBSITE 50% DIVS*/
       .div50r {
             width: 50%;
-            float: rigth;
+            float: right;
             height: 700px;
             padding: 0%;
             margin: 0%;
+            display: inline-block;
+
 
 
       }
@@ -181,8 +537,11 @@ p    { ... }
       .div40l {
             width: 40%;
             float: right;
+            height: 700px;
             padding: 0%;
             margin: 0%;
+            display: inline-block;
+
       }
 
       .div60r {
@@ -195,6 +554,7 @@ p    { ... }
       .div50l {
             width: 50%;
             float: right;
+            height: 700px;
             padding: 0%;
             margin: 0%;
             display: inline-block;
@@ -245,13 +605,10 @@ p    { ... }
 
       .experiencia {
             background-image: url(../image/Untitled-2.png);
-            background-size: contain;
+            background-size: cover;
             background-repeat: no-repeat;
       }
 
-      .animationbutton {
-            width: 220px;
-      }
 
       .accordionXContainerRES {
 
@@ -271,4 +628,23 @@ p    { ... }
             height: 100%;
             color: #9b8d75;
       }
+}
+
+/* On screens that are 992px wide or less,
+go from four columns to two columns */
+@media screen and (max-width: 992px) {
+      .column {
+            width: 50%;
+      }
+
+
+}
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+      .column {
+            width: 100%;
+      }
+
 }

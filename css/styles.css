@@ -14,7 +14,9 @@ html {
       scroll-behavior: smooth;
 }
 
-
+#buttonsmobile {
+      visibility: hidden;
+}
 
 .screenwebsite {
       visibility: hidden;
@@ -24,7 +26,7 @@ html {
 
 .menucolor {
       font-family: 'Roboto', sans-serif;
-      color: #1F2633;
+      color: #99a5bc;
 }
 
 .mainmenucolor {
@@ -248,9 +250,7 @@ html {
       inset: 10px 8px #bca49a;
 }
 
-.accordionTXT {
-      color: #745447;
-}
+
 
 .resumeBtn {
       letter-spacing: 1px;
@@ -327,4 +327,11 @@ html {
 
 .textlowbutton {
       font-size: 1em;
+      font-family: montserrat;
+}
+
+.textbig {
+
+      font-family: montserrat;
+
 }

@@ -106,10 +106,12 @@ body {
 .first {
       animation: firstSpan 1.5s forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
       z-index: 1;
-      font-family: 'Abril Fatface', cursive;
+      font-family: poppins;
+      font-weight: 700;
       margin-left: 10vw;
       display: inline-block;
-      font-size: 7vw;
+      font-size: 5vw;
+      color: #385e67;
 
 
 
@@ -123,11 +125,27 @@ body {
 }
 
 .second {
+
       animation: secondSpan 1.5s forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
       font-weight: 100;
       z-index: -1;
       display: inline-block;
       color: #5c93a0;
+
+
+
+
+}
+
+.third {
+      font-family: poppins;
+      animation: secondSpan 1.5s forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
+      z-index: -1;
+      display: inline-block;
+      color: #5c93a0;
+      margin-left: 10vw;
+      z-index: -1;
+      font-size: 3vw;
 
 }
 

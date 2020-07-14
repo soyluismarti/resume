@@ -189,6 +189,12 @@ p    { ... }
             inset: 10px 8px #bca49a;
       }
 
+      .experiencia {
+            background-image: url(../image/Untitled-2.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+      }
+
       .animationbutton {
             width: 220px;
       }

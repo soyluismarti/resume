@@ -58,7 +58,7 @@ body {
       background-size: cover;
       height: 100vh;
       text-align: left;
-      line-height: 70px;
+      line-height: 2.6vw;
       background-attachment: fixed;
 
 
@@ -69,7 +69,7 @@ body {
       font-family: 'Abril Fatface', cursive;
       top: 50%;
       transform: translateY(-50%);
-      font-size: 70px;
+      font-size: 60px;
       letter-spacing: 2px;
 }
 
@@ -99,20 +99,17 @@ body {
       opacity: 0;
       transition-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
       padding-top: 16%;
-
-
+      max-width: 50%;
 
 }
 
 .first {
       animation: firstSpan 1.5s forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
       z-index: 1;
-      position: relative;
       font-family: 'Abril Fatface', cursive;
       margin-left: 10vw;
-      font-size: 120px;
-
-
+      display: inline-block;
+      font-size: 7vw;
 
 
 
@@ -121,7 +118,7 @@ body {
 .oh {
       overflow: hidden;
       font-family: 'Abril Fatface', cursive;
-      font-size: 90px;
+      font-size: 5vw;
       margin-left: 10vw;
 }
 
@@ -131,6 +128,7 @@ body {
       z-index: -1;
       display: inline-block;
       color: #5c93a0;
+
 }
 
 @keyframes fadeIn {

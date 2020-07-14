@@ -12,7 +12,7 @@
       box-shadow: 3px 5px 5px #ffffff;
       border-radius: 20px;
       transition: all 1s ease;
-      transform: scale(0.8);
+      transform: scale(0.9);
 }
 
 .animationbutton:hover {
@@ -35,7 +35,7 @@
 .animationbuttonHome:hover {
       background-color: #e2d8c8;
       /*  Making button bigger on hover  */
-      transform: scale(1.2) perspective(1px)
+      transform: scale(1.0) perspective(1px)
 }
 
 

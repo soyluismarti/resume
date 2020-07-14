@@ -1,0 +1,234 @@
+.focusanimation:active {
+      transform: translate(0px, 5px);
+      -webkit-transform: translate(0px, 5px);
+      box-shadow: 0px 1px 0px 0px;
+      border-radius: 20px;
+}
+
+
+.animationbutton {
+
+      background-color: #e1cfb3;
+      box-shadow: 3px 5px 5px #ffffff;
+      border-radius: 20px;
+      transition: all 1s ease;
+      transform: scale(0.9);
+}
+
+.animationbutton:hover {
+      background-color: #e7ded0;
+      /*  Making button bigger on hover  */
+      transform: scale(1.0) perspective(1px)
+}
+
+
+.animationbuttonHome {
+
+      background-color: #e2d8c8;
+      box-shadow: 3px 5px 5px #ffffff;
+      border-radius: 20px;
+      transition: all 1s ease;
+      transform: scale(1);
+}
+
+
+.animationbuttonHome:hover {
+      background-color: #e2d8c8;
+      /*  Making button bigger on hover  */
+      transform: scale(1.0) perspective(1px)
+}
+
+
+
+
+* {
+      margin: 0;
+      padding: 0;
+}
+
+html,
+body {
+      height: 100%;
+}
+
+
+.hero {
+      font-family: 'Abril Fatface', cursive;
+      background-image: url(../image/backgroundhomescreen.svg);
+      background-size: cover;
+      height: 100vh;
+      text-align: left;
+      line-height: 2.6vw;
+      background-attachment: fixed;
+
+
+}
+
+.hero-text {
+      position: relative;
+      font-family: 'Abril Fatface', cursive;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 60px;
+      letter-spacing: 2px;
+}
+
+
+
+body {
+      margin: 0;
+      padding: 0;
+}
+
+.container {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-direction: column;
+
+}
+
+
+.animation {
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 80px;
+      letter-spacing: 2px;
+      color: #fff;
+      display: inline-block;
+      animation: fadeIn 1.5s forwards;
+      opacity: 0;
+      transition-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+      padding-top: 16%;
+      max-width: 50%;
+
+}
+
+.first {
+      animation: firstSpan 1.5s forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
+      z-index: 1;
+      font-family: poppins;
+      font-weight: 700;
+      margin-left: 10vw;
+      display: inline-block;
+      font-size: 5vw;
+      color: #385e67;
+
+
+
+}
+
+.oh {
+      overflow: hidden;
+      font-family: 'Abril Fatface', cursive;
+      font-size: 5vw;
+      margin-left: 10vw;
+}
+
+.second {
+
+      animation: secondSpan 1.5s forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
+      font-weight: 100;
+      z-index: -1;
+      display: inline-block;
+      color: #5c93a0;
+
+
+
+
+}
+
+.third {
+      font-family: poppins;
+      animation: secondSpan 1.5s forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
+      z-index: -1;
+      display: inline-block;
+      color: #5c93a0;
+      margin-left: 10vw;
+      z-index: -1;
+      font-size: 3vw;
+
+}
+
+@keyframes fadeIn {
+      0% {
+            opacity: 0;
+            transform: scale(1);
+      }
+
+      50% {
+            opacity: 1;
+            transform: scale(1.1);
+      }
+
+      100% {
+            transform: scale(1);
+            opacity: 1;
+      }
+}
+
+@keyframes firstSpan {
+      0% {
+            transform: translateX(50%);
+      }
+
+      60% {
+            transform: translateX(50%);
+      }
+
+      100% {
+            transform: translateX(0%);
+      }
+}
+
+@keyframes secondSpan {
+      0% {
+            transform: translateX(-100%);
+      }
+
+      60% {
+            transform: translateX(-100%);
+      }
+
+      100% {
+            transform: translateX(-0%);
+      }
+}
+
+/*LOADER*/
+
+
+
+#preload {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: #37576A;
+      transition: opacity linear 1s;
+      z-index: 1;
+}
+
+#preload:before {
+      content: url(../image/preloader.svg);
+      position: absolute;
+      top: calc(50% - 30px);
+      left: calc(50% - 30px);
+      width: 60px;
+      height: 60px;
+
+}
+
+#preload.out {
+      opacity: 0;
+}
+
+@keyframes spin {
+      0% {
+            -webkit-transform: rotate(0deg);
+      }
+
+      100% {
+            -webkit-transform: rotate(360deg);
+      }
+}

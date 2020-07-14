@@ -144,7 +144,6 @@ body {
       display: inline-block;
       color: #5c93a0;
       margin-left: 10vw;
-      z-index: -1;
       font-size: 3vw;
 
 }
@@ -191,5 +190,45 @@ body {
 
       100% {
             transform: translateX(-0%);
+      }
+}
+
+/*LOADER*/
+
+
+
+#preload {
+      position: absolute;
+      display: inline-block;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: #37576A;
+      transition: opacity linear 1s;
+      z-index: 1;
+}
+
+#preload:before {
+      content: url(../image/preloader_animated.svg);
+      position: absolute;
+      top: calc(50% - 30px);
+      left: calc(50% - 30px);
+      width: 60px;
+      height: 60px;
+
+}
+
+#preload.out {
+      opacity: 0;
+}
+
+@keyframes spin {
+      0% {
+            -webkit-transform: rotate(0deg);
+      }
+
+      100% {
+            -webkit-transform: rotate(360deg);
       }
 }

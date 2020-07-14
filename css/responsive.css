@@ -218,3 +218,11 @@ p    { ... }
 
 
 }
+
+@media (min-width: 784px) {
+      body {
+            background-color: #000000;
+            background-image: none;
+      }
+
+}

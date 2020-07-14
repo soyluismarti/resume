@@ -40,6 +40,11 @@ html {
 
       color: #37576A;
       font-family: 'Abril Fatface', cursive;
+      font-size: 12vw;
+      line-height: 12vw;
+      text-align: center;
+      display: inline-block;
+
 }
 
 .maintextcolor {

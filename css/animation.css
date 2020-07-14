@@ -54,19 +54,22 @@ body {
 
 .hero {
       font-family: 'Abril Fatface', cursive;
-      background-image: url(/image/backgroundhomescreen.svg);
+      background-image: url(../image/backgroundhomescreen.svg);
+      background-size: cover;
       height: 100vh;
-      text-align: center;
+      text-align: left;
+      line-height: 70px;
+      background-attachment: fixed;
+
 
 }
 
 .hero-text {
       position: relative;
       font-family: 'Abril Fatface', cursive;
-
       top: 50%;
       transform: translateY(-50%);
-      font-size: 80px;
+      font-size: 70px;
       letter-spacing: 2px;
 }
 
@@ -89,31 +92,37 @@ body {
 .animation {
       font-family: Helvetica, Arial, sans-serif;
       font-size: 80px;
-      letter-spacing: 1px;
+      letter-spacing: 2px;
       color: #fff;
       display: inline-block;
       animation: fadeIn 1.5s forwards;
       opacity: 0;
       transition-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
-      padding-top: 20%;
+      padding-top: 16%;
+
 
 
 }
 
 .first {
-      display: inline-block;
       animation: firstSpan 1.5s forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
       z-index: 1;
       position: relative;
       font-family: 'Abril Fatface', cursive;
+      margin-left: 10vw;
+      font-size: 120px;
+
+
+
+
 
 }
 
 .oh {
-      display: inline-flex;
       overflow: hidden;
       font-family: 'Abril Fatface', cursive;
-
+      font-size: 90px;
+      margin-left: 10vw;
 }
 
 .second {
@@ -121,6 +130,7 @@ body {
       font-weight: 100;
       z-index: -1;
       display: inline-block;
+      color: #5c93a0;
 }
 
 @keyframes fadeIn {

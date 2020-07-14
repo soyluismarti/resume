@@ -7,8 +7,14 @@ body {
       font-family: 'Roboto', sans-serif;
       font-family: 'Roboto Slab', serif;
       font-family: 'Montserrat', sans-serif;
-      background-color: #e2d8c8;
+      background-color: #ebe3d7;
 }
+
+html {
+      scroll-behavior: smooth;
+}
+
+
 
 .screenwebsite {
       visibility: hidden;

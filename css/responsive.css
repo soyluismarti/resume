@@ -44,14 +44,13 @@ p    { ... }
 
       .mainhometitlecolor {
             float: right;
-            font-size: 4vw;
             line-height: 5vw;
             padding-left: 0vw;
 
       }
 
       .homeTitle {
-            padding-top: 15vw;
+            padding-top: 10vw;
             align-items: center;
             display: flex;
             text-align: center;
@@ -201,9 +200,12 @@ p    { ... }
             border-width: 2pt;
             display: block;
             margin: 12VW;
-            -webkit-box-shadow: -2px 1px 34px 10px #60473d, inset -110px 112px 12px -108px #6d5951;
-            -moz-box-shadow: -2px 1px 34px 10px #48413e, inset -110px 112px 12px -108px #96766a;
+            margin-bottom: 0vw;
+            -webkit-box-shadow: -2px 1px 34px 10px #342c29, inset -110px 112px 12px -108px #6d5951;
+            -moz-box-shadow: -2px 1px 34px 5px #6a564e, inset -110px 112px 12px -108px #96766a;
             -o-box-shadow: 8px 4px 8px #000000;
-            box-shadow: -2px 1px 34px 10px #ceafa1, inset -110px 112px 12px -108px #ffffff;
+            box-shadow: -2px 1px 34px 5px #bdb2ae, inset -110px 112px 12px -108px #ffffff;
       }
+
+
 }

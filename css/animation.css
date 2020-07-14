@@ -37,3 +37,133 @@
       /*  Making button bigger on hover  */
       transform: scale(1.2) perspective(1px)
 }
+
+
+
+
+* {
+      margin: 0;
+      padding: 0;
+}
+
+html,
+body {
+      height: 100%;
+}
+
+
+.hero {
+      font-family: 'Abril Fatface', cursive;
+      background-image: url(/image/backgroundhomescreen.svg);
+      height: 100vh;
+      text-align: center;
+
+}
+
+.hero-text {
+      position: relative;
+      font-family: 'Abril Fatface', cursive;
+
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 80px;
+      letter-spacing: 2px;
+}
+
+
+
+body {
+      margin: 0;
+      padding: 0;
+}
+
+.container {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-direction: column;
+
+}
+
+
+.animation {
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 80px;
+      letter-spacing: 1px;
+      color: #fff;
+      display: inline-block;
+      animation: fadeIn 1.5s forwards;
+      opacity: 0;
+      transition-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+      padding-top: 20%;
+
+
+}
+
+.first {
+      display: inline-block;
+      animation: firstSpan 1.5s forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
+      z-index: 1;
+      position: relative;
+      font-family: 'Abril Fatface', cursive;
+
+}
+
+.oh {
+      display: inline-flex;
+      overflow: hidden;
+      font-family: 'Abril Fatface', cursive;
+
+}
+
+.second {
+      animation: secondSpan 1.5s forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
+      font-weight: 100;
+      z-index: -1;
+      display: inline-block;
+}
+
+@keyframes fadeIn {
+      0% {
+            opacity: 0;
+            transform: scale(1);
+      }
+
+      50% {
+            opacity: 1;
+            transform: scale(1.1);
+      }
+
+      100% {
+            transform: scale(1);
+            opacity: 1;
+      }
+}
+
+@keyframes firstSpan {
+      0% {
+            transform: translateX(50%);
+      }
+
+      60% {
+            transform: translateX(50%);
+      }
+
+      100% {
+            transform: translateX(0%);
+      }
+}
+
+@keyframes secondSpan {
+      0% {
+            transform: translateX(-100%);
+      }
+
+      60% {
+            transform: translateX(-100%);
+      }
+
+      100% {
+            transform: translateX(-0%);
+      }
+}

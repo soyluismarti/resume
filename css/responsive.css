@@ -1,5 +1,3 @@
-font-family: 'Poppins',
-sans-serif;
 /* ESTILOS NORMALES (para móviles en vertical)
    ========================================================================= /
  
@@ -24,12 +22,7 @@ p    { ... }
 
 /* Móviles en horizontal o tablets en vertical
    ------------------------------------------------------------------------- */
-@media (max-width: 768px) {
-
-      body {
-            background-color: black;
-      }
-}
+@media (max-width: 768px) {}
 
 @media (min-width: 768px) {
 

@@ -58,6 +58,13 @@ p    { ... }
 
       }
 
+      .education {
+            height: 640px;
+            background-image: url(../image/background1.svg);
+            background-color: #e2d8c8;
+            background-size: cover;
+      }
+
       .textresize {
             font-size: 9vw;
       }
@@ -133,9 +140,6 @@ p    { ... }
             float: rigth;
             padding: 0%;
             margin: 0%;
-
-
-
       }
 
       .div50l {

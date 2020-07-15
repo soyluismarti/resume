@@ -1,12 +1,9 @@
-/* *Generales* */
-
-
-
+/* *General* */
 body {
       font-family: 'Abril Fatface', cursive;
-      font-family: 'Roboto', sans-serif;
-      font-family: 'Roboto Slab', serif;
       font-family: 'Montserrat', sans-serif;
+      font-family: 'Poppins', sans-serif;
+      font-family: 'Roboto', sans-serif;
       background-color: #ebe3d7;
 }
 
@@ -14,211 +11,151 @@ html {
       scroll-behavior: smooth;
 }
 
-#buttonsmobile {
-      visibility: hidden;
+
+
+
+/*Mediaqueries*/
+
+@media (min-width: 1024px) {
+
+      #buttonsmobile {
+            visibility: hidden;
+
+      }
 }
 
-.screenwebsite {
-      visibility: hidden;
+@media (max-width: 410px) {
+
+      body {
+
+            background-image: url(../image/body.svg);
+            background-size: cover;
+      }
+
+      .hero {
+            background-image: url(../image/heromob.svg);
+            background-size: cover;
+      }
 }
 
-/*colors*/
+/*backgrounds*/
 
-.menucolor {
-      font-family: 'Roboto', sans-serif;
-      color: #99a5bc;
+
+.aboutme {
+
+      background-image: url(/image/backgroundoffic.svg);
+      background-size: cover;
+      background-color: #ded6cb;
+      height: 100%;
+
 }
 
-.mainmenucolor {
-      background-color: #e2d8c8;
+.aboutme h1 {
+      font-weight: 500;
+      color: cadetblue;
+      font-family: 'Poppins', sans-serif;
 
 }
 
-.starredcolor {
-      background-color: #37576A;
+.aboutme h2 {
+      font-weight: 100;
+      color: cadetblue;
+      font-family: 'Poppins', sans-serif;
+
 }
 
-.maintitlecolor {
+.aboutme h3 {
+      font-weight: 200;
+      color: cadetblue;
+      font-family: 'Poppins', sans-serif;
+      text-decoration: underline;
 
-      color: #37576A;
-      font-family: 'Abril Fatface', cursive;
-      font-size: 12vw;
-      line-height: 12vw;
+}
+
+.aboutme p {
+      font-weight: 200;
+      color: #a59589;
+      font-family: 'Poppins', sans-serif;
+
+}
+
+.aboutme td {
+      font-weight: 200;
+      color: #a59589;
+      font-family: 'Poppins', sans-serif;
+
+}
+
+.experience {
+      background-image: url(../image/about.svg);
+      background-size: cover;
+}
+
+.experience h1 {
+      font-weight: 500;
+      color: cadetblue;
+      font-family: 'Poppins', sans-serif;
       text-align: center;
-      display: inline-block;
+}
+
+.experience h2 {
+      font-weight: 500;
+      color: cadetblue;
+      font-family: 'Poppins', sans-serif;
 
 }
 
-.maintextcolor {
-      color: #37576A;
-}
-
-.secondarytextcolor {
-      color: #37576A
-}
-
-.iconsFillSkills {
-      filter: invert(0.2);
-}
-
-.iconsFillmenu {
-      filter: invert(1);
+.experience h3 {
+      font-weight: 100;
+      font-size: medium;
+      color: cadetblue;
+      font-family: 'Poppins', sans-serif;
 
 }
 
-.buttonstyle {
-      letter-spacing: 0.3px;
-      font-size: 0.6em;
-      font-family: roboto;
-      text-transform: uppercase;
-      letter-spacing: 0.2vw;
+.experience h4 {
+      font-size: 1vw;
       font-weight: 400;
-}
-
-
-
-/*Backgrounds*/
-
-.bodygradient {
-      -moz-box-shadow: inset 0 0 10px #000000;
-      -webkit-box-shadow: inset 0 0 18px #b18a79;
-      box-shadow: inset 0 0 18px #b18a79;
-      padding-bottom: 150px;
-}
-
-.bodygradient2 {
-      background: url(../image/background1.svg);
-      background-size: cover;
-      background-color: #e2d8c8;
-}
-
-.navbarscreen {
-      display: none;
-}
-
-.bodygradient3 {
-      background-image: url(../image/experience.jpg);
-      background-size: cover;
-      background-repeat: repeat;
+      color: cadetblue;
+      font-family: 'Poppins', sans-serif;
 
 }
 
-.mainhometitlecolor {
-      color: #ffffff;
-      font-family: 'Abril Fatface', cursive;
-      font-size: 11vw;
-      line-height: 7vw;
+.experience p {
+      font-weight: 200;
+      color: #a59589;
+      font-family: 'Poppins', sans-serif;
+
+}
+
+.experience ul {
+      font-weight: 200;
+      color: #a59589;
+      font-family: 'Poppins', sans-serif;
 
 }
 
 
-.starthome {
-      display: none;
-}
-
-
-.bodygradientmenu {
-      background-image: url(../image/background2.svg);
-      background-size: cover;
-}
-
-.bodyExpe {
+.education {
+      background-image: url(../image/education.svg);
       background-size: cover;
 
 }
 
 
-.navNeo {
-      -moz-box-shadow: inset 0 0 18px #000000;
-      -webkit-box-shadow: 0 0 5px #b18a79;
-      box-shadow: 0 0 5px #caab9c;
-      border-radius: 0px 0px 27px 27px;
-}
+.education {}
 
+/*special*/
+.iconsFillmenu {
 
-.fullW {
-      display: table;
-      width: 100%;
-      background-image: url(../image/graphics2_animated.svg);
-      padding-top: 40px;
-      float: left;
-}
-
-
-.flo-left,
-.flo-right {
-      padding-top: 10px;
-      display: table-cell;
-      width: 50%;
-}
-
-.flo-right {
-      background-image: url(../image/Untitled-2.png);
-      background-size: contain;
-      background-repeat: no-repeat;
-      height: 30vw;
-      padding-bottom: 150px;
+      filter: inverse;
 
 }
 
-.flo-left {
-      font-family: 'Abril Fatface', cursive;
-      letter-spacing: 2px;
-      line-height: 5vw;
-      padding-left: 40px;
-}
-
-
-.fullW2 {
-      display: table;
-      background-image: url(../image/graphics2_animated.svg);
-}
-
-.flo-left2,
-.flo-right2 {
-      display: table-cell;
-      width: 50%;
-}
-
-.flo-left2 {
-
-      letter-spacing: 2px;
-
-}
-
-.flo-right2 {
-      height: 30vw;
-
-}
-
-
-
-/*div Colorizer*/
-
-
-.skills {
-
-      -webkit-box-shadow:
-            0px 0px 4px #bca49a;
-      -moz-box-shadow:
-            0px 0px 4px #bca49a;
-      -o-box-shadow:
-            8px 4px 8px #bca49a;
-      inset 0 0 8px #bca49a;
-      box-shadow:
-            8px 5px 5px #bca49a;
-      inset 0 0 8px #bca49a;
-      border-radius: 0 0 37px 37px;
-      height: 70px;
-      width: 100%;
-      display: block;
-}
-
-.accordionXContainer {
+.accordion {
       /*Shadow accordion*/
       border: #bb9484;
       border-width: 2pt;
-      display: block;
       margin: 20px;
       -webkit-box-shadow: 8px 8px 4px #bb9484;
       -moz-box-shadow: 8px 8px 4px #bb9484;
@@ -264,56 +201,6 @@ html {
 
 }
 
-/*buttons*/
-
-
-.buttonexperiencewhite {
-      background-color: #e2d8c8;
-      border-radius: 0 0 37px 37px;
-      display: block;
-      border-radius: 20px;
-      height: 280px;
-      width: 250px;
-      -webkit-box-shadow:
-            8px 8px 4px #bb9484;
-      -moz-box-shadow:
-            8px 8px 4px #bb9484;
-      -o-box-shadow:
-            8px 4px 8px #bb9484;
-      inset: 10px 8px #bca49a;
-      box-shadow:
-            8px 5px 5px #bb9484;
-      inset: 10px 8px #bca49a;
-
-}
-
-
-/*Experience*/
-
-
-
-.listaWork {
-      font-size: 13px;
-      width: 100%;
-      display: inline-block;
-}
-
-.titleEducation {
-      font-size: 3vw;
-      text-align: left;
-      color: #D1A250;
-      font-weight: 400;
-      width: 100%;
-}
-
-.footer2 {
-      -webkit-box-shadow: 0 0 5px #b18a79;
-      box-shadow: 0 0 2px #caab9c;
-      font-family: roboto;
-      font-size: 0.3em;
-
-}
-
 
 .buttonwhitehome {
       -webkit-box-shadow: 0 0 5px #b18a79;
@@ -333,5 +220,25 @@ html {
 .textbig {
 
       font-family: montserrat;
+
+}
+
+
+.buttonexperiencewhite {
+      background-color: #e2d8c8;
+      border-radius: 0 0 37px 37px;
+      border-radius: 20px;
+      height: 280px;
+      width: 250px;
+      -webkit-box-shadow:
+            8px 8px 4px #bb9484;
+      -moz-box-shadow:
+            8px 8px 4px #bb9484;
+      -o-box-shadow:
+            8px 4px 8px #bb9484;
+      inset: 10px 8px #bca49a;
+      box-shadow:
+            8px 5px 5px #bb9484;
+      inset: 10px 8px #bca49a;
 
 }

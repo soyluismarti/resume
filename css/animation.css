@@ -55,7 +55,6 @@ body {
 .hero {
       height: 100vh;
       text-align: left;
-      line-height: 2.6vw;
       background-attachment: fixed;
       background-image: url(/image/heroescritorio.svg);
       background-size: cover;
@@ -71,7 +70,7 @@ body {
 }
 
 
-.container {
+.containerhero {
       display: flex;
       justify-content: center;
       align-content: center;
@@ -81,31 +80,27 @@ body {
 
 .animation {
       letter-spacing: 2px;
-      color: #fff;
       display: inline-block;
       animation: fadeIn 1.5s forwards;
       opacity: 0;
       transition-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
       padding-top: 16%;
+      margin-left: 10vw;
+
 }
 
 .first {
       animation: firstSpan 1.5s forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
       z-index: 1;
       font-family: 'Poppins', sans-serif;
-      font-weight: 800;
-      margin-left: 10vw;
       display: inline-block;
-      font-size: 4vw;
       color: #385e67;
+
 }
 
 .oh {
       font-family: 'Poppins', sans-serif;
-      overflow: hidden;
-      font-size: 4vw;
-      margin-left: 10vw;
-      margin-bottom: 1vw;
+      overflow: visible;
 
 }
 
@@ -113,14 +108,10 @@ body {
 
       animation: secondSpan 1.5s forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
       font-weight: 800;
-      font-size: 4vw;
       z-index: -1;
       display: inline-block;
       color: #5c93a0;
-      margin-bottom: 1vw;
-
-
-
+      margin-bottom: 1.5vw;
 
 
 }
@@ -129,9 +120,7 @@ body {
       font-family: 'Poppins', sans-serif;
       animation: secondSpan 1.5s forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
       z-index: -1;
-      display: inline-block;
       color: #5c93a0;
-      margin-left: 10vw;
       font-size: 3vw;
 
 }

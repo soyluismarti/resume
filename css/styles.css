@@ -4,7 +4,10 @@ body {
       font-family: 'Montserrat', sans-serif;
       font-family: 'Poppins', sans-serif;
       font-family: 'Roboto', sans-serif;
-      background-color: #ebe3d7;
+      background-color: #f0ebe5;
+      background-image: url(../image/body.svg);
+      background-size: cover;
+
 }
 
 html {
@@ -28,7 +31,7 @@ html {
 
       body {
 
-            background-image: url(../image/body.svg);
+            background-image: url(../image/body1.svg);
             background-size: cover;
       }
 
@@ -36,31 +39,65 @@ html {
             background-image: url(../image/heromob.svg);
             background-size: cover;
       }
+
+      .footer {
+
+            position: fixed;
+            bottom: 0;
+            z-index: 10000;
+
+      }
 }
 
 /*backgrounds*/
 
 
+.hero h1 {
+
+      font-size: 4vw;
+      line-height: 0vw;
+}
+
+.hero h2 {
+
+      font-size: 6vw;
+      line-height: 4vw;
+}
+
+.hero p {
+      line-height: 0vw;
+      margin-top: 2vw;
+      font-size: 3vw;
+      color: cadetblue;
+}
+
 .aboutme {
 
-      background-image: url(/image/backgroundoffic.svg);
       background-size: cover;
-      background-color: #ded6cb;
-      height: 100%;
+      padding: 5%;
 
 }
+
+
+
 
 .aboutme h1 {
-      font-weight: 500;
-      color: cadetblue;
+      font-weight: 700;
+      font-size: 55px;
+      color: #655841;
       font-family: 'Poppins', sans-serif;
-
+      text-align: center;
+      justify-content: center;
 }
 
+
+
+
 .aboutme h2 {
-      font-weight: 100;
       color: cadetblue;
-      font-family: 'Poppins', sans-serif;
+      font-family: 'Raleway', sans-serif;
+      font-size: 40px;
+      line-height: 35px;
 
 }
 
@@ -74,64 +111,84 @@ html {
 
 .aboutme p {
       font-weight: 200;
-      color: #a59589;
-      font-family: 'Poppins', sans-serif;
+      color: #695a4e;
+      font-family: 'Raleway', sans-serif;
 
 }
 
 .aboutme td {
       font-weight: 200;
-      color: #a59589;
-      font-family: 'Poppins', sans-serif;
+      color: #655841;
+      font-family: 'Raleway', sans-serif;
 
 }
+
+
 
 .experience {
       background-image: url(../image/about.svg);
       background-size: cover;
+
 }
 
 .experience h1 {
-      font-weight: 500;
-      color: cadetblue;
+      font-weight: 700;
+      font-size: 60px;
+      color: #655841;
       font-family: 'Poppins', sans-serif;
       text-align: center;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      padding-bottom: 5%;
+      padding-top: 5%;
 }
 
 .experience h2 {
       font-weight: 500;
-      color: cadetblue;
+      color: #655841;
       font-family: 'Poppins', sans-serif;
+      text-align: center;
+
+
 
 }
 
 .experience h3 {
       font-weight: 100;
       font-size: medium;
-      color: cadetblue;
+      color: #655841;
       font-family: 'Poppins', sans-serif;
+      text-align: center;
+
 
 }
 
 .experience h4 {
       font-size: 1vw;
       font-weight: 400;
-      color: cadetblue;
+      color: #655841;
       font-family: 'Poppins', sans-serif;
+      text-align: center;
+
 
 }
 
 .experience p {
       font-weight: 200;
       color: #a59589;
-      font-family: 'Poppins', sans-serif;
+      font-family: 'Raleway', sans-serif;
+      text-align: center;
+
 
 }
 
 .experience ul {
       font-weight: 200;
       color: #a59589;
-      font-family: 'Poppins', sans-serif;
+      font-family: 'Raleway', sans-serif;
+      text-align: center;
+
 
 }
 
@@ -143,18 +200,115 @@ html {
 }
 
 
-.education {}
+.education h1 {
+      font-weight: 700;
+      font-size: 40px;
+      color: #655841;
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      width: 100%;
+      height: 200px;
+      padding: 0;
+      margin: 0;
+      padding-bottom: 5%;
+      padding-top: 5%;
+}
+
+.education h2 {
+      font-size: 20px;
+      font-weight: 700;
+      color: #695a4e;
+      font-family: 'Poppins', sans-serif;
+      text-align: left;
+}
+
+.education li {
+      font-size: 16px;
+      font-weight: 200;
+      color: #695a4e;
+      font-family: 'Raleway', sans-serif;
+      text-align: left;
+}
+
+.education p {
+      font-size: 16px;
+      font-weight: 200;
+      color: #695a4e;
+      font-family: 'Raleway', sans-serif;
+      text-align: left;
+}
+
+.education figcaption {
+      font-size: 16px;
+      font-weight: 200;
+      color: #695a4e;
+      font-family: 'Poppins', sans-serif;
+      text-align: left;
+}
+
+.contact h1 {
+      font-weight: 700;
+      font-size: 40px;
+      color: #655841;
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      width: 100%;
+      height: 200px;
+      padding: 0;
+      margin: 0;
+      padding-bottom: 5%;
+      padding-top: 5%;
+}
+
+.contact h2 {
+      font-size: 20px;
+      font-weight: 700;
+      color: #695a4e;
+      font-family: 'Poppins', sans-serif;
+      text-align: left;
+}
+
+
+.contact h5 {
+      font-size: 20px;
+      font-weight: 700;
+      color: #695a4e;
+      font-family: 'Poppins', sans-serif;
+      text-align: left;
+}
+
+.contact li {
+      font-size: 16px;
+      font-weight: 200;
+      color: #695a4e;
+      font-family: 'Raleway', sans-serif;
+      text-align: left;
+}
+
+.contact p {
+      font-size: 16px;
+      font-weight: 200;
+      color: #695a4e;
+      font-family: 'Raleway', sans-serif;
+      text-align: left;
+}
+
+.footer a {
+
+      color: antiquewhite
+}
+
+.footer a:hover {
+
+      color: aquamarine;
+}
+
 
 /*special*/
-.iconsFillmenu {
-
-      filter: inverse;
-
-}
 
 .accordion {
       /*Shadow accordion*/
-      border: #bb9484;
+      border: #ece2de;
       border-width: 2pt;
       margin: 20px;
       -webkit-box-shadow: 8px 8px 4px #bb9484;
@@ -167,20 +321,16 @@ html {
 }
 
 .accordiontop {
-      background-color: #e2d8c8;
-      border: NONE;
-      margin: none;
-
+      background-color: #f0eae1;
 }
 
 .accordiontop:hover {
-      background-color: #d8cdbc;
-
+      background-color: #f0eae1;
 }
 
 
 .accordionbottom {
-      background-color: #e2d8c8;
+      background-color: #f0eae1;
       border-radius: 0 0 30px 30px;
       box-shadow:
             8px 5px 5px #bb9484;

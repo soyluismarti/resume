@@ -16,51 +16,45 @@ html {
 
 
 
+.hero .first {
+      font-size: 80px;
+      font-family: poppins;
 
-/*Mediaqueries*/
-
-@media (min-width: 1024px) {
-
-      #buttonsmobile {
-            visibility: hidden;
-
-      }
 }
 
-@media (max-width: 410px) {
-
-      body {
-
-            background-image: url(../image/body1.svg);
-            background-size: cover;
-      }
-
-      .hero {
-            background-image: url(../image/heromob.svg);
-            background-size: cover;
-      }
-
-      .footer {
-
-            position: fixed;
-            bottom: 0;
-            z-index: 10000;
-
-      }
+.hero .second {
+      font-size: 60px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 600;
 }
+
+
 
 /*backgrounds*/
 
+.hero .first {
+      font-size: 35px;
+      font-family: poppins;
+
+
+}
+
+.hero .second {
+      font-size: 25px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 600;
+}
 
 .hero h1 {
 
-      font-size: 4vw;
+      font-size: 20px;
       line-height: 0vw;
 }
 
 .hero h2 {
 
-      font-size: 6vw;
+      font-size: 20px;
+      justify-content: center;
       line-height: 4vw;
 }
 
@@ -133,7 +127,7 @@ html {
 
 .experience h1 {
       font-weight: 700;
-      font-size: 60px;
+      font-size: 35px;
       color: #655841;
       font-family: 'Poppins', sans-serif;
       text-align: center;
@@ -378,7 +372,7 @@ html {
       background-color: #e2d8c8;
       border-radius: 0 0 37px 37px;
       border-radius: 20px;
-      height: 280px;
+      height: 160px;
       width: 250px;
       -webkit-box-shadow:
             8px 8px 4px #bb9484;
@@ -390,5 +384,6 @@ html {
       box-shadow:
             8px 5px 5px #bb9484;
       inset: 10px 8px #bca49a;
+      opacity: 0.8;
 
 }

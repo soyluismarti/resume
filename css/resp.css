@@ -1,0 +1,132 @@
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+      body {
+
+            background-image: url(../image/body1.svg);
+            background-size: cover;
+      }
+
+      .hero {
+            background-image: url(../image/heromob.svg);
+            background-size: cover;
+      }
+
+
+      #buttonsmobile {
+            visibility: visible;
+
+      }
+
+      h1 {
+            font-size: 60px;
+      }
+
+      .footer {
+
+            position: fixed;
+            bottom: 0;
+            z-index: 10000;
+
+      }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+      .hero {
+
+            background-image: url(../image/heroipad.svg);
+            background-size: cover;
+      }
+
+      .footer {
+
+            position: fixed;
+            bottom: 0;
+            z-index: 0;
+
+      }
+
+      .hero .first {
+            font-size: 60px;
+            font-family: poppins;
+
+      }
+
+      .hero .second {
+            font-size: 70px;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 600;
+      }
+
+
+      #buttonsmobile {
+            visibility: visible;
+
+      }
+
+
+      .buttonexperiencewhite {
+
+            height: 300px;
+            width: 300px;
+      }
+
+
+}
+
+@media (min-width: 1024px) {
+
+      .hero {
+
+            background-image: url(../image/heroescritorio.svg);
+            background-size: cover;
+            background-position: center;
+      }
+
+      .buttonexperiencewhite {
+
+            height: 40vw;
+            width: 40vw;
+      }
+
+      .buttonexperiencewhite .textlowbutton {
+            font-size: 30px;
+      }
+
+
+      .buttonexperiencewhite .textbig {
+            font-size: 10vw;
+      }
+
+      .buttonexperiencewhite {
+
+            height: 200px;
+            width: 200px;
+      }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+
+
+      .hero .first {
+            font-size: 100px;
+            font-family: poppins;
+
+      }
+
+      .hero .second {
+            font-size: 60px;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 600;
+      }
+
+      #buttonsmobile {
+            visibility: hidden;
+
+      }
+
+
+}

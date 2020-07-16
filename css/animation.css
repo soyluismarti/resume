@@ -93,6 +93,7 @@ body {
       animation: firstSpan 1.5s forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
       z-index: 1;
       font-family: 'Poppins', sans-serif;
+      font-size: 70px;
       display: inline-block;
       color: #385e67;
 
@@ -184,6 +185,12 @@ body {
       background: #37576A;
       transition: opacity linear 1s;
       z-index: 1;
+
+
+      position: fixed;
+      top: 0;
+      z-index: 10000;
+
 }
 
 #preload:before {

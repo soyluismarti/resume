@@ -1,10 +1,8 @@
 /* *General* */
 body {
-      font-family: 'Abril Fatface', cursive;
-      font-family: 'Montserrat', sans-serif;
-      font-family: 'Poppins', sans-serif;
-      font-family: 'Roboto', sans-serif;
-      background-color: #f0ebe5;
+      font-family: 'Playfair Display', serif;
+      font-family: 'Fauna One', serif;
+      background-color: #ecece7;
       background-image: url(../image/body.svg);
       background-size: cover;
 
@@ -15,17 +13,42 @@ html {
 }
 
 
+h1,
+h4,
+h5 {
+      font-family: 'Fauna One', serif;
+      font-weight: 400;
+}
+
+h2,
+h3 {
+      font-size: 25px;
+      font-weight: bolder;
+}
+
+p {
+      font-family: 'Playfair Display', serif;
+      font-weight: 100;
+
+}
+
+ul {
+      font-family: 'Playfair Display', serif;
+      font-weight: 100;
+}
+
 
 .hero .first {
       font-size: 80px;
-      font-family: poppins;
+      color: #eacac1;
 
 }
 
 .hero .second {
       font-size: 60px;
-      font-family: 'Raleway', sans-serif;
-      font-weight: 600;
+      font-weight: 100;
+      color: #eacac1;
+
 }
 
 
@@ -34,14 +57,12 @@ html {
 
 .hero .first {
       font-size: 35px;
-      font-family: poppins;
 
 
 }
 
 .hero .second {
       font-size: 25px;
-      font-family: 'Raleway', sans-serif;
       font-weight: 600;
 }
 
@@ -77,19 +98,18 @@ html {
 
 .aboutme h1 {
       font-weight: 700;
-      font-size: 55px;
-      color: #655841;
-      font-family: 'Poppins', sans-serif;
-      text-align: center;
-      justify-content: center;
+      font-size: 18px;
+      color: #13232d;
+      text-align: left;
+      justify-content: left;
+      text-transform: initial;
 }
 
 
 
 
 .aboutme h2 {
-      color: cadetblue;
-      font-family: 'Raleway', sans-serif;
+      color: #13232d;
       font-size: 40px;
       line-height: 35px;
 
@@ -97,8 +117,7 @@ html {
 
 .aboutme h3 {
       font-weight: 200;
-      color: cadetblue;
-      font-family: 'Poppins', sans-serif;
+      color: #13232d;
       text-decoration: underline;
 
 }
@@ -106,42 +125,41 @@ html {
 .aboutme p {
       font-weight: 200;
       color: #695a4e;
-      font-family: 'Raleway', sans-serif;
+      text-align: left;
 
 }
 
 .aboutme td {
-      font-weight: 200;
+      font-weight: 100;
       color: #655841;
-      font-family: 'Raleway', sans-serif;
+      font-size: smaller;
 
 }
-
 
 
 .experience {
-      background-image: url(../image/about.svg);
-      background-size: cover;
+      background-color: #13232d;
+      width: 100%;
+
 
 }
 
+
 .experience h1 {
       font-weight: 700;
-      font-size: 35px;
-      color: #655841;
-      font-family: 'Poppins', sans-serif;
-      text-align: center;
+      font-size: 18px;
+      color: #ecece7;
+      text-align: left;
       width: 100%;
       padding: 0;
       margin: 0;
-      padding-bottom: 5%;
       padding-top: 5%;
 }
 
 .experience h2 {
       font-weight: 500;
-      color: #655841;
-      font-family: 'Poppins', sans-serif;
+
+      color: #ecece7;
       text-align: center;
 
 
@@ -151,8 +169,7 @@ html {
 .experience h3 {
       font-weight: 100;
       font-size: medium;
-      color: #655841;
-      font-family: 'Poppins', sans-serif;
+      color: #ecece7;
       text-align: center;
 
 
@@ -161,8 +178,7 @@ html {
 .experience h4 {
       font-size: 1vw;
       font-weight: 400;
-      color: #655841;
-      font-family: 'Poppins', sans-serif;
+      color: #ecece7;
       text-align: center;
 
 
@@ -170,36 +186,37 @@ html {
 
 .experience p {
       font-weight: 200;
-      color: #a59589;
-      font-family: 'Raleway', sans-serif;
-      text-align: center;
+      color: #ecece7;
+      text-align: left;
 
 
 }
 
 .experience ul {
       font-weight: 200;
-      color: #a59589;
-      font-family: 'Raleway', sans-serif;
+      color: #ecece7;
       text-align: center;
 
 
 }
 
 
+
 .education {
-      background-image: url(../image/education.svg);
+      background-image: url(../image/HOUSE.png);
+      filter: saturate(0);
       background-size: cover;
+      background-position: middle;
+      opacity: 0.3;
 
 }
 
 
 .education h1 {
       font-weight: 700;
-      font-size: 40px;
-      color: #655841;
-      font-family: 'Poppins', sans-serif;
-      text-align: center;
+      font-size: 18px;
+      color: #13232d;
+      text-align: left;
       width: 100%;
       height: 200px;
       padding: 0;
@@ -211,40 +228,35 @@ html {
 .education h2 {
       font-size: 20px;
       font-weight: 700;
-      color: #695a4e;
-      font-family: 'Poppins', sans-serif;
+      color: #13232d;
       text-align: left;
 }
 
 .education li {
       font-size: 16px;
       font-weight: 200;
-      color: #695a4e;
-      font-family: 'Raleway', sans-serif;
+      color: #13232d;
       text-align: left;
 }
 
 .education p {
       font-size: 16px;
       font-weight: 200;
-      color: #695a4e;
-      font-family: 'Raleway', sans-serif;
+      color: #13232d;
       text-align: left;
 }
 
 .education figcaption {
       font-size: 16px;
       font-weight: 200;
-      color: #695a4e;
-      font-family: 'Poppins', sans-serif;
+      color: #13232d;
       text-align: left;
 }
 
 .contact h1 {
       font-weight: 700;
       font-size: 40px;
-      color: #655841;
-      font-family: 'Poppins', sans-serif;
+      color: #13232d;
       text-align: center;
       width: 100%;
       height: 200px;
@@ -257,8 +269,7 @@ html {
 .contact h2 {
       font-size: 20px;
       font-weight: 700;
-      color: #695a4e;
-      font-family: 'Poppins', sans-serif;
+      color: #13232d;
       text-align: left;
 }
 
@@ -266,24 +277,21 @@ html {
 .contact h5 {
       font-size: 20px;
       font-weight: 700;
-      color: #695a4e;
-      font-family: 'Poppins', sans-serif;
+      color: #13232d;
       text-align: left;
 }
 
 .contact li {
       font-size: 16px;
       font-weight: 200;
-      color: #695a4e;
-      font-family: 'Raleway', sans-serif;
+      color: #13232d;
       text-align: left;
 }
 
 .contact p {
       font-size: 16px;
       font-weight: 200;
-      color: #695a4e;
-      font-family: 'Raleway', sans-serif;
+      color: #13232d;
       text-align: left;
 }
 
@@ -302,45 +310,32 @@ html {
 
 .accordion {
       /*Shadow accordion*/
-      border: #ece2de;
-      border-width: 2pt;
+      border: #ecece7;
       margin: 20px;
-      -webkit-box-shadow: 8px 8px 4px #bb9484;
-      -moz-box-shadow: 8px 8px 4px #bb9484;
-      -o-box-shadow: 8px 4px 8px #bb9484;
-      inset: 10px 8px #bca49a;
-      box-shadow: 8px 5px 5px #bb9484;
-      inset: 10px 8px #bca49a;
+
 
 }
 
 .accordiontop {
-      background-color: #f0eae1;
+      background-color: #ecece7;
 }
 
 .accordiontop:hover {
-      background-color: #f0eae1;
+      background-color: #ecece7;
 }
 
-
-.accordionbottom {
-      background-color: #f0eae1;
-      border-radius: 0 0 30px 30px;
-      box-shadow:
-            8px 5px 5px #bb9484;
-      inset: 10px 8px #bca49a;
-}
 
 
 
 .resumeBtn {
       letter-spacing: 1px;
       font-size: 12px;
-      font-family: roboto
+      font-family: 'Raleway', sans-serif;
+      font-weight: lighter;
 }
 
 .whitetextContainer {
-      color: #CECECE;
+      color: #ecece7;
       font-size: 10px;
 
 }
@@ -369,7 +364,7 @@ html {
 
 
 .buttonexperiencewhite {
-      background-color: #e2d8c8;
+      background-color: #ecece7;
       border-radius: 0 0 37px 37px;
       border-radius: 20px;
       height: 160px;

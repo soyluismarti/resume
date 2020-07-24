@@ -1,14 +1,11 @@
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-      body {
-
-            background-image: url(../image/body1.svg);
-            background-size: cover;
-      }
+      body {}
 
       .hero {
-            background-image: url(../image/heromob.svg);
+            background-image: url(../image/HOUSE.png);
             background-size: cover;
+            background-color: #13232d;
       }
 
 
@@ -34,8 +31,9 @@
 @media (min-width: 768px) {
       .hero {
 
-            background-image: url(../image/heroipad.svg);
+            background-image: url(../image/HOUSE.png);
             background-size: cover;
+            background-color: #13232d;
       }
 
       .footer {
@@ -48,13 +46,12 @@
 
       .hero .first {
             font-size: 60px;
-            font-family: poppins;
 
       }
 
       .hero .second {
+
             font-size: 70px;
-            font-family: 'Raleway', sans-serif;
             font-weight: 600;
       }
 
@@ -78,19 +75,19 @@
 
       .hero {
 
-            background-image: url(../image/heroescritorio.svg);
+            background-image: url(../image/HOUSE.png);
             background-size: cover;
             background-position: center;
       }
 
       .buttonexperiencewhite {
 
-            height: 40vw;
-            width: 40vw;
+            height: 42vw;
+            width: 42vw;
       }
 
       .buttonexperiencewhite .textlowbutton {
-            font-size: 30px;
+            font-size: 20px;
       }
 
 
@@ -109,18 +106,22 @@
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
 
-
+      .righthero {
+            background-image: url(../image/HOUSE.png);
+            background-size: cover;
+      }
 
       .hero .first {
             font-size: 100px;
-            font-family: poppins;
+            font-weight: 100;
+            color: #eacac1;
 
       }
 
       .hero .second {
             font-size: 60px;
-            font-family: 'Raleway', sans-serif;
-            font-weight: 600;
+            line-height: 20px;
+            color: #eacac1;
       }
 
       #buttonsmobile {

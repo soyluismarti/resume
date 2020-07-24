@@ -92,7 +92,6 @@ body {
 .first {
       animation: firstSpan 1.5s forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
       z-index: 1;
-      font-family: 'Poppins', sans-serif;
       font-size: 70px;
       display: inline-block;
       color: #385e67;
@@ -100,7 +99,6 @@ body {
 }
 
 .oh {
-      font-family: 'Poppins', sans-serif;
       overflow: visible;
 
 }
@@ -118,10 +116,9 @@ body {
 }
 
 .third {
-      font-family: 'Poppins', sans-serif;
       animation: secondSpan 1.5s forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
       z-index: -1;
-      color: #5c93a0;
+      color: #13232d;
       font-size: 3vw;
 
 }
@@ -182,7 +179,7 @@ body {
       left: 0;
       width: 100vw;
       height: 100vh;
-      background: #37576A;
+      background: #13232d;
       transition: opacity linear 1s;
       z-index: 1;
 
@@ -214,5 +211,49 @@ body {
 
       100% {
             -webkit-transform: rotate(360deg);
+      }
+}
+
+
+
+.typewriter h1 {
+      color: #fff;
+      font-family: monospace;
+      overflow: hidden;
+      /* Ensures the content is not revealed until the animation */
+      border-right: .15em solid orange;
+      /* The typwriter cursor */
+      white-space: nowrap;
+      /* Keeps the content on a single line */
+      margin: 0 auto;
+      /* Gives that scrolling effect as the typing happens */
+      letter-spacing: .15em;
+      /* Adjust as needed */
+      animation:
+            typing 3.5s steps(30, end),
+            blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+      from {
+            width: 0
+      }
+
+      to {
+            width: 100%
+      }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+      from,
+      to {
+            border-color: transparent
+      }
+
+      50% {
+            border-color: orange
       }
 }

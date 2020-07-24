@@ -12,10 +12,9 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+	<link href="https://fonts.googleapis.com/css2?family=Fauna+One&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&family=Raleway&display=swap"
 		rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
 		integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
@@ -39,9 +38,10 @@
 
 	<div>
 		<header>
-			<nav class="navbar navbar navbar-fixed-top" style="background-color: #deebef;">
+			<nav class="navbar sticky-top navbar-light bg-transparent " style="height:100px;">
 				<div class="navbar-inner justify-content-left">
-					<img src="image/animatedlogo.svg" alt="homesbygabby" width="60vw">
+					<img src="image/animatedlogo.svg" alt="homesbygabby" width="60vw"
+						style="padding-left: 2%;">
 				</div>
 				<div class="text-right my-4 mx-2">
 					<h1
@@ -83,65 +83,74 @@
 
 		<!-- End Nav Structure -->
 		<!-- Begin Hero BACK -->
-		<section id="hero" class="hero">
 
-			<div class=" animation">
-				<h1 class="first">Smile to</h1>
+
+		<section id="hero" class=" row hero">
+
+			<div class="animation col-sm-6 float-left">
+
+				<h1 class="first typewriter">Smile to</h1>
 				<h2 class="oh">
-					<span class="second">your new home</span></h2>
+					<span class="second">your<i> new home</i></br>
+						<p style="text-align:right ;font-size: medium;">Property management</p>
+					</span></h2>
 
-				</button>
 			</div>
 
-			<nav id="buttonsmobile" class="container mt-2 justify-content-center">
-				<a href="#aboutme"
-					class="col-6 pt-4 pl-3 float-left  shadow btn btn-light focusanimation animationbuttonHome buttonexperiencewhite">
-					<div>
-						<h2 style="font-size: 60px;" class="text-left font-weight-bold textbig">1<span><img
-									src="image/profileB.svg" alt="" width="40%"
-									style="float: right" /></span>
-						</h2>
-						<h2 class=" textlowbutton font-weight-bold"><span>about</span><span
-								style="color:#B2B2B2">me
-							</span><span></h2>
-					</div>
-				</a>
-				<a href="#experience"
-					class="col-6 pt-4 pl-3 float-left  shadow btn btn-light focusanimation animationbuttonHome buttonexperiencewhite">
-					<div>
-						<h2 style="font-size: 60px;" class="text-left  font-weight-bold textbig ">2<img
-								src="image/portfolioB.svg" alt="" width="40%" style="float: right" />
-							</span</h2> <h2 class="font-weight-bold textlowbutton">
-							<span>expe</span><span style="color:#B2B2B2">rience
-							</span>
-						</h2>
-					</div>
-				</a>
-				<a href="#education"
-					class="col-6 pt-4 pl-3 float-left  shadow btn btn-light focusanimation animationbuttonHome buttonexperiencewhite">
-					<div>
-						<h2 style="font-size: 60px;" class="text-left font-weight-bold textbig ">3<span><img
-									src="image/educationB.svg" alt="" width="40%"
-									style="float: right;" /></span>
-						</h2>
-						<h2 class="textlowbutton font-weight-bold "><span>edu</span><span
-								style="color:#B2B2B2">cation
-						</h2>
-					</div>
-				</a>
-				<a href="#contactme"
-					class="col-6  pt-4 pl-3 float-left shadow btn btn-light focusanimation animationbuttonHome buttonexperiencewhite">
-					<div>
-						<h2 style="font-size: 60px;" class="text-left font-weight-bold textbig">4<span><img
-									src="image/contactB.svg" alt="" width="40%"
-									style="float: right;" /></span>
-						</h2>
-						<h2 class="textlowbutton font-weight-bold "><span>contact</span><span
-								style="color:#B2B2B2">me
-							</span></h2>
-					</div>
-				</a>
-			</nav>
+			<div class="righthero animation col ">
+
+				<nav id="buttonsmobile" class="container justify-content-center">
+					<a href="#aboutme"
+						class="col-6 pt-4  float-left  shadow  btn-light focusanimation animationbuttonHome buttonexperiencewhite">
+						<div>
+							<h2 style="font-size: 60px;" class="text-left font-weight-bold textbig">
+								1<span><img src="image/profileB.svg" alt="" width="40%"
+										style="float: right" /></span>
+							</h2>
+							<h2 class=" textlowbutton font-weight-bold"><span>about</span><span
+									style="color:#B2B2B2">me
+								</span><span></h2>
+						</div>
+					</a>
+					<a href="#experience"
+						class="col-6 pt-4 pl-3 float-left  shadow btn btn-light focusanimation animationbuttonHome buttonexperiencewhite">
+						<div>
+							<h2 style="font-size: 60px;" class="text-left  font-weight-bold textbig ">
+								2<img src="image/portfolioB.svg" alt="" width="40%"
+									style="float: right" />
+								</span</h2> <h2 class="font-weight-bold textlowbutton">
+								<span>expe</span><span style="color:#B2B2B2">rience
+								</span>
+							</h2>
+						</div>
+					</a>
+					<a href="#education"
+						class="col-6 pt-4 pl-3 float-left  shadow btn btn-light focusanimation animationbuttonHome buttonexperiencewhite">
+						<div>
+							<h2 style="font-size: 60px;" class="text-left font-weight-bold textbig ">
+								3<span><img src="image/educationB.svg" alt="" width="40%"
+										style="float: right;" /></span>
+							</h2>
+							<h2 class="textlowbutton font-weight-bold "><span>edu</span><span
+									style="color:#B2B2B2">cation
+							</h2>
+						</div>
+					</a>
+					<a href="#contactme"
+						class="col-6  pt-4 pl-3 float-left shadow btn btn-light focusanimation animationbuttonHome buttonexperiencewhite">
+						<div>
+							<h2 style="font-size: 60px;" class="text-left font-weight-bold textbig">
+								4<span><img src="image/contactB.svg" alt="" width="40%"
+										style="float: right;" /></span>
+							</h2>
+							<h2 class="textlowbutton font-weight-bold "><span>contact</span><span
+									style="color:#B2B2B2">me
+								</span></h2>
+						</div>
+					</a>
+				</nav>
+			</div>
+
 
 		</section>
 
@@ -155,17 +164,20 @@
 			<div class="container">
 				<div class="w-100 bigtitle justify-content-center">
 					<h1>About <span style="color:#B2B2B2">me</span></h1>
+					<hr>
 				</div>
 				<div class="row">
-					<h1 class="col-sm-6 about text-hidden float-left justify-content-center">
-						<img src="image/photo.png" alt="" width="100%">
+					<h1 class="col-sm-6 about text-hidden float-left justify-content">
+						<img style="vertical-align: top; border-radius: 100%;" src="image/profilepic.jpeg"
+							alt="" width="100%">
 					</h1>
-					<div class="col-sm-6 float-right antique">
+					<div class="col-sm-6 float-right">
 						<div>
 							<h2>hello
-								<span class=" "></span></br>I'm
-								Gabbie</span>
+								<span style="font-size: 50px;"></br>I'm
+									<i>Gabbie</i></span>
 							</h2>
+							<hr>
 							<div class="row">
 
 								<div class="float-left offset-1 ">
@@ -192,6 +204,8 @@
 								</div>
 
 							</div>
+							<hr>
+
 							<div>
 
 								<p>
@@ -266,15 +280,21 @@
 		</section>
 
 		<!--Exp-->
-		<section class="experience py-5 " id="experience">
-			<div class="w-100 text-align-center justify-content-center">
-				<h1><span style="color:#B2B2B2">My </span>experience</h1>
+		<section class=" experience pb-5" id="experience">
+			<div class="p-5 text-align-left justify-content-left ">
+				<h1>Experience
+					<HR>
+				</h1>
+				<p>5+ years of experience working in </br> the property management field, give me the enough
+					qualities
+					to make your project succeed</p>
+				<hr>
 			</div>
 			<div class=" container">
 
 
 				<div class="row">
-					<div class="col-sm-6 float-left">
+					<div class="col-sm-4 float-left">
 
 						<div class="p-4 row justify-content-center">
 							<div><img src="image/logo1170.svg" alt="" width="200px" />
@@ -284,7 +304,7 @@
 
 						<div>
 							<h2>1170 Apt Corp</h2>
-							<h3>Jan 2016 - Present ( 4 years, 7 months )</br>
+							<h3>Jan 2016 - Aug 2020 ( 4 years, 8 months )</br>
 								Assistant Property Manager</br>
 								New Jersey, United States </h3>
 						</div>
@@ -327,7 +347,7 @@
 						</div>
 
 
-						<h2>Smart Realty Brokers</h2>
+						<h2>Smart Realty</h2>
 						<h3>Jan 2019-Present ( 1 years, 7 months )</br>
 							Property Sales Consultant -
 							Leasing Specialist</br>
@@ -349,9 +369,44 @@
 								paperwork and procedures</li>
 						</ul>
 					</div>
+
+					<div class=" col float-right">
+						<div class="p-4 row justify-content-center">
+							<div><img class="imagenesexp" src="image/logoLPC.svg" alt="" width="200px" />
+							</div>
+
+						</div>
+
+
+						<h2>Liconln Property Company </h2>
+						<h3>Jul 2020-Present</br>
+							Assistan property manager -
+							Leasing Specialist</br>
+							New Jersey, United States </br></h3>
+						<hr>
+						<ul class=" list-group-flush">
+							<li>Assist with accepting move out notices, service requests and resident
+								transfers.</li>
+							<li>Responsible for implementing lease renewal and resident retention
+								programs.</li>
+							<li>Manage resident relations issues, which includes taking resident phone
+								calls, requests and concerns.</li>
+							<li>Analyze weekly leasing reports and forecast occupancy trends.</li>
+							<li>Assist with developing and tracking marketing strategies, including
+								advertising, promotions and publications.</li>
+							<li>Manage rent collections, late notices and posting rent.</li>
+							<li>Review and inspect vacancies, make-ready apartments and models.</li>
+							<li>Inspect the property for community policy violations, needed repairs and
+								overall landscaping.</li>
+							<li>Additional duties as assigned.</li>
+						</ul>
+					</div>
 				</div>
 
 			</div>
+
+
+
 		</section>
 
 
@@ -362,12 +417,12 @@
 				<div class="row">
 					<div class="col float-right">
 						<h1>Education &</br>
-							<span style="font-size: 35px; color: #B2B2B2;">Certifications</span>
+							<span style="font-size: 44px; color: #B2B2B2;">Certifications</span>
 						</h1>
 					</div>
 					<div class="col float-left">
 
-						<div id="accordion" class="accordionXContainerRES button">
+						<div id="accordion" class="mb-5 accordionXContainerRES button">
 							<div class="card">
 								<div class="card-header accordiontop" id="headingOne">
 									<button class=" btn btn-link collapsed accordiontop"
@@ -502,7 +557,7 @@
 				</div>
 			</div>
 		</section>
-		<div class="footer w-100 btn-group btn-dark justify-content-center" style="background-color:#5f8e99;">
+		<div class="footer mt-5 w-100 btn-group btn-dark justify-content-center" style="background-color:#000000;">
 			<a href="tel:+15519987611" class="iconsFillmenu btn my-auto">
 				<h2 style="font-size:0.8em"><i class="fas fa-mobile-alt"></i></span><span> Call</span>
 				</h2>
